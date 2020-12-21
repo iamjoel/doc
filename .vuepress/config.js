@@ -1,6 +1,6 @@
 module.exports = {
   title: '常用文档',
-  base: '/doc/', // 部署站点的基础路径
+  base: '/doc/dist/', // 部署站点的基础路径
   dest: './dist', // 构建输出的位置，从项目根路径开始算。
   themeConfig: {
     sidebar: [
