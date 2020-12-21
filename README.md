@@ -2,5 +2,6 @@
 ## 目录
 * 前端
   * [DOM 常用操作](content/fe/DOM.md)
-  * [DOM 常用操作](content/fe/async.md)
-
+  * [异步常用写法](content/fe/async.md)
+* 数据库
+  * [MySQL 常用命令 & SQL](content/database/mysql.md)
