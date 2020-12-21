@@ -10,7 +10,11 @@ module.exports = {
           {
             title: 'DOM 常用操作',
             path: '/content/fe/DOM'
-          }
+          },
+          {
+            title: '异步常用写法',
+            path: '/content/fe/async'
+          },
         ]
       }
     ]

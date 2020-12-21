@@ -230,6 +230,6 @@ elem.dispatchEvent(event, data)// 触发事件
 
 - [You might not need jQuery](http://youmightnotneedjquery.com/)
 
-## — 完 —
+**— 完 —**
 
 整理 By [Joel](https://github.com/iamjoel)。微信号搜索: joel007。
