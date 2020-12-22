@@ -4,20 +4,22 @@
 
 ```jsx
 class Comp extends React.Component {
-	constructor(props) {
+  constructor(props) {
     super(props)
     this.state = {
-		}
-		this.inputRef = React.createRef()
+    }
+    this.inputRef = React.createRef()
   }
+  
+  handleChange = (e) => {}
 
-	render() {
-		return (
-			<div>
-				<input type="text" onChange={handleChange} ref={inputRef}/>
-			</div>
-		)
-	}
+  render() {
+    return (
+      <div>
+        <input type="text" onChange={handleChange} ref={inputRef}/>
+      </div>
+    )
+  }
 }
 
 class PureComp extends React.PureComponent {}
@@ -69,12 +71,12 @@ import PropTypes from 'prop-types'
 Comp.PropTypes = {
 	optionalArray: PropTypes.array,
 	requiredArray: PropTypes.array.isRequired, // .isRequired 确保一定有。
-  optionalBool: PropTypes.bool,
-  optionalFunc: PropTypes.func,
-  optionalNumber: PropTypes.number,
-  optionalObject: PropTypes.object,
-  optionalString: PropTypes.string,
-  optionalSymbol: PropTypes.symbol,
+    optionalBool: PropTypes.bool,
+    optionalFunc: PropTypes.func,
+    optionalNumber: PropTypes.number,
+    optionalObject: PropTypes.object,
+    optionalString: PropTypes.string,
+    optionalSymbol: PropTypes.symbol,
 
 	optionalNode: PropTypes.node, // 任何可被渲染的元素（包括数字、字符串、元素或数组）
 	optionalElement: PropTypes.element, // React 元素
@@ -94,7 +96,7 @@ Comp.PropTypes = {
 ```jsx
 Comp.defaultProps = {
   name: 'Joel',
-	age: 18
+  age: 18
 }
 ```
 
@@ -103,7 +105,7 @@ Comp.defaultProps = {
 ```jsx
 ReactDOM.createPortal(
   jsxEl, // 一般是 this.props.children
-	targetEl // Portal 到哪个元素下。document.body
+  targetEl // Portal 到哪个元素下。document.body
 )
 ```
 
