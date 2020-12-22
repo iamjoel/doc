@@ -33,6 +33,13 @@ module.exports = {
           title: 'MySQL 常用命令 & SQL',
           path: '/content/database/mysql'
         }]
+      },
+      {
+        title: '工具',
+        children: [{
+          title: 'Git 常用命令',
+          path: '/content/software/git'
+        }]
       }
     ]
   }
