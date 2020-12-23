@@ -9,21 +9,40 @@ module.exports = {
                 title: '前端',
                 children: [
                     {
-                        title: 'DOM 常用操作',
-                        path: '/content/fe/DOM'
+                        title: '样式',
+                        children: [
+                            {
+                                title: 'CSS 工具类',
+                                path: '/content/fe/style/css-util'
+                            }
+                        ]
                     },
                     {
-                        title: '异步常用写法',
-                        path: '/content/fe/async'
+                        title: 'JavaScript',
+                        children: [
+                            {
+                                title: 'DOM 常用操作',
+                                path: '/content/fe/js/DOM'
+                            },
+                            {
+                                title: '异步常用写法',
+                                path: '/content/fe/js/async'
+                            },
+                            {
+                                title: 'TypeScript 常用写法',
+                                path: '/content/fe/js/ts'
+                            },
+                        ]
                     },
                     {
-                        title: 'TypeScript 常用写法',
-                        path: '/content/fe/ts'
+                        title: '框架',
+                        children: [
+                            {
+                                title: 'React 常见写法',
+                                path: '/content/fe/framework/react'
+                            }
+                        ]
                     },
-                    {
-                        title: 'React 常见写法',
-                        path: '/content/fe/react'
-                    }
                 ]
             },
             {
