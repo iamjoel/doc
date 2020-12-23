@@ -14,6 +14,10 @@ module.exports = {
                             {
                                 title: 'CSS 工具类',
                                 path: '/content/fe/style/css-util'
+                            },
+                            {
+                                title: 'CSS in JS',
+                                path: '/content/fe/style/css-in-js'
                             }
                         ]
                     },
