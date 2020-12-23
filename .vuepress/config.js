@@ -16,6 +16,10 @@ module.exports = {
                                 path: '/content/fe/style/css-util'
                             },
                             {
+                                title: 'Sass 常用写法',
+                                path: '/content/fe/style/sass'
+                            },
+                            {
                                 title: 'CSS in JS',
                                 path: '/content/fe/style/css-in-js'
                             }

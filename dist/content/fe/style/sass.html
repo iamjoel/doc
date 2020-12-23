@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Sass 常用写法 | 常用文档</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/doc/dist/assets/css/0.styles.0ab2fb2f.css" as="style"><link rel="preload" href="/doc/dist/assets/js/app.cf5fde96.js" as="script"><link rel="preload" href="/doc/dist/assets/js/2.eaa6c1ab.js" as="script"><link rel="preload" href="/doc/dist/assets/js/16.a45da128.js" as="script"><link rel="prefetch" href="/doc/dist/assets/js/10.f8692327.js"><link rel="prefetch" href="/doc/dist/assets/js/11.8ba77eda.js"><link rel="prefetch" href="/doc/dist/assets/js/12.fca236b9.js"><link rel="prefetch" href="/doc/dist/assets/js/13.c6b841ba.js"><link rel="prefetch" href="/doc/dist/assets/js/14.fb602e6d.js"><link rel="prefetch" href="/doc/dist/assets/js/15.3d35383d.js"><link rel="prefetch" href="/doc/dist/assets/js/17.fa27ff43.js"><link rel="prefetch" href="/doc/dist/assets/js/18.f84ec3a9.js"><link rel="prefetch" href="/doc/dist/assets/js/3.e1ad554d.js"><link rel="prefetch" href="/doc/dist/assets/js/4.09fd2c39.js"><link rel="prefetch" href="/doc/dist/assets/js/5.b99a1609.js"><link rel="prefetch" href="/doc/dist/assets/js/6.ffe6f60a.js"><link rel="prefetch" href="/doc/dist/assets/js/7.36c333bd.js"><link rel="prefetch" href="/doc/dist/assets/js/8.156dee97.js"><link rel="prefetch" href="/doc/dist/assets/js/9.05ea1e13.js">
+    <link rel="stylesheet" href="/doc/dist/assets/css/0.styles.0ab2fb2f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/doc/dist/" class="home-link router-link-active"><!----> <span class="site-name">常用文档</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://github.com/iamjoel/doc" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://github.com/iamjoel/doc" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>前端</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>样式</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/doc/dist/content/fe/style/css-util.html" class="sidebar-link">CSS 工具类</a></li><li><a href="/doc/dist/content/fe/style/sass.html" aria-current="page" class="active sidebar-link">Sass 常用写法</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/doc/dist/content/fe/style/sass.html#解决文件中有中文报错" class="sidebar-link">解决文件中有中文报错</a></li><li class="sidebar-sub-header"><a href="/doc/dist/content/fe/style/sass.html#变量" class="sidebar-link">变量</a></li><li class="sidebar-sub-header"><a href="/doc/dist/content/fe/style/sass.html#混入-mixins" class="sidebar-link">混入(Mixins)</a></li><li class="sidebar-sub-header"><a href="/doc/dist/content/fe/style/sass.html#扩展-extend" class="sidebar-link">扩展 Extend</a></li><li class="sidebar-sub-header"><a href="/doc/dist/content/fe/style/sass.html#插值" class="sidebar-link">插值</a></li><li class="sidebar-sub-header"><a href="/doc/dist/content/fe/style/sass.html#条件" class="sidebar-link">条件</a></li><li class="sidebar-sub-header"><a href="/doc/dist/content/fe/style/sass.html#循环" class="sidebar-link">循环</a></li><li class="sidebar-sub-header"><a href="/doc/dist/content/fe/style/sass.html#数组操作" class="sidebar-link">数组操作</a></li><li class="sidebar-sub-header"><a href="/doc/dist/content/fe/style/sass.html#在命令行输出调试信息" class="sidebar-link">在命令行输出调试信息</a></li></ul></li><li><a href="/doc/dist/content/fe/style/css-in-js.html" class="sidebar-link">CSS in JS</a></li></ul></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>JavaScript</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>框架</span> <span class="arrow right"></span></p> <!----></section></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>后端</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>数据库</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>工具</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="sass-常用写法"><a href="#sass-常用写法" class="header-anchor">#</a> Sass 常用写法</h1> <h2 id="解决文件中有中文报错"><a href="#解决文件中有中文报错" class="header-anchor">#</a> 解决文件中有中文报错</h2> <p>文件的代码第一行加如下内容：</p> <div class="language-scss extra-class"><pre class="language-scss"><code>@charset <span class="token string">'utf-8'</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="变量"><a href="#变量" class="header-anchor">#</a> 变量</h2> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token keyword">@import</span> <span class="token string">'var.scss'</span>
+<span class="token property"><span class="token variable">$primary-color</span></span><span class="token punctuation">:</span> #333<span class="token punctuation">;</span>
+<span class="token selector">body </span><span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> <span class="token variable">$primary-color</span><span class="token punctuation">;</span>
+	<span class="token property">font-size</span><span class="token punctuation">:</span> <span class="token variable">$font-size</span><span class="token punctuation">;</span> <span class="token comment">// 会去 var.scss 中找</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="混入-mixins"><a href="#混入-mixins" class="header-anchor">#</a> 混入(Mixins)</h2> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token comment">// 定义</span>
+<span class="token keyword">@mixin</span> <span class="token selector">clearfix </span><span class="token punctuation">{</span>
+  <span class="token selector"><span class="token parent important">&amp;</span>::after </span><span class="token punctuation">{</span>
+    <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">''</span><span class="token punctuation">;</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> table<span class="token punctuation">;</span>
+    <span class="token property">clear</span><span class="token punctuation">:</span> both<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.wrap </span><span class="token punctuation">{</span>
+  <span class="token keyword">@include</span> clearfix<span class="token punctuation">;</span><span class="token comment">// 使用</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 带参数</span>
+<span class="token keyword">@mixin</span> <span class="token function">size</span><span class="token punctuation">(</span><span class="token variable">$width</span><span class="token punctuation">,</span> <span class="token property"><span class="token variable">$height</span></span><span class="token punctuation">:</span> <span class="token variable">$width</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> <span class="token variable">$width</span><span class="token punctuation">;</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> <span class="token variable">$height</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.block1</span><span class="token punctuation">{</span>
+  <span class="token keyword">@include</span> <span class="token function">size</span><span class="token punctuation">(</span>100px<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.block2</span><span class="token punctuation">{</span>
+  <span class="token keyword">@include</span> <span class="token function">size</span><span class="token punctuation">(</span>100px<span class="token punctuation">,</span> 200px<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="扩展-extend"><a href="#扩展-extend" class="header-anchor">#</a> 扩展 Extend</h2> <p>扩展和混入比较类似，不同点是，扩展不支持参数。</p> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token selector">.message </span><span class="token punctuation">{</span>
+  <span class="token property">border</span><span class="token punctuation">:</span> 1px solid #ccc<span class="token punctuation">;</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector"><span class="token placeholder">%border-box</span> </span><span class="token punctuation">{</span>
+  <span class="token property">box-sizing</span><span class="token punctuation">:</span> border-box<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.success </span><span class="token punctuation">{</span>
+  <span class="token keyword">@extend</span> <span class="token placeholder selector">%border-box</span><span class="token punctuation">;</span>
+  <span class="token keyword">@extend</span> .message<span class="token punctuation">;</span>
+  <span class="token property">border-color</span><span class="token punctuation">:</span> #0f0<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.error </span><span class="token punctuation">{</span>
+  <span class="token keyword">@extend</span> <span class="token placeholder selector">%border-box</span><span class="token punctuation">;</span>
+  <span class="token keyword">@extend</span> .message<span class="token punctuation">;</span>
+  <span class="token property">border-color</span><span class="token punctuation">:</span> #00f<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="插值"><a href="#插值" class="header-anchor">#</a> 插值</h2> <p>如果想要在选择器或属性上用变量,必须使用插值，否则会报错。</p> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token property"><span class="token variable">$sel</span></span><span class="token punctuation">:</span> <span class="token string">'.a'</span><span class="token punctuation">;</span>
+<span class="token property"><span class="token variable">$attr</span></span><span class="token punctuation">:</span> width<span class="token punctuation">;</span>
+<span class="token selector"><span class="token variable">#{$sel}</span></span><span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #f00<span class="token punctuation">;</span>
+  <span class="token property"><span class="token variable">#{$attr}</span></span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="条件"><a href="#条件" class="header-anchor">#</a> 条件</h2> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token property"><span class="token variable">$isCool</span></span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+<span class="token keyword">@if</span> <span class="token selector"><span class="token variable">$isCool</span> </span><span class="token punctuation">{</span>
+  <span class="token selector">.is-Cool</span><span class="token punctuation">{</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">@if</span> <span class="token selector">not <span class="token variable">$isCool</span> </span><span class="token punctuation">{</span>
+<span class="token punctuation">}</span> <span class="token keyword">@else</span> <span class="token punctuation">{</span>
+   <span class="token selector">.notCool</span><span class="token punctuation">{</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> #000<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="循环"><a href="#循环" class="header-anchor">#</a> 循环</h2> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token property"><span class="token variable">$map</span></span><span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token string">'a'</span><span class="token punctuation">:</span> #f00<span class="token punctuation">,</span> <span class="token string">'b'</span><span class="token punctuation">:</span> #0f0<span class="token punctuation">,</span> <span class="token string">'c'</span><span class="token punctuation">:</span> #00f<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">@each</span> <span class="token selector"><span class="token variable">$key</span>, <span class="token variable">$value</span> in <span class="token variable">$map</span> </span><span class="token punctuation">{</span>
+  <span class="token selector">.section-<span class="token variable">#{$key}</span> </span><span class="token punctuation">{</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> <span class="token variable">$value</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="数组操作"><a href="#数组操作" class="header-anchor">#</a> 数组操作</h2> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token comment">// 数组的元素可以由空格或逗号分割。</span>
+<span class="token property"><span class="token variable">$list</span></span><span class="token punctuation">:</span> 10px 20px 10px<span class="token punctuation">;</span>
+<span class="token function">nth</span><span class="token punctuation">(</span><span class="token variable">$list</span><span class="token punctuation">,</span> 2<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 20px。取列表中的第 n 个元素，下标从 1 开始。</span>
+<span class="token property"><span class="token variable">$list2</span></span><span class="token punctuation">:</span> 10<span class="token punctuation">,</span>30<span class="token punctuation">,</span>50<span class="token punctuation">;</span>
+<span class="token function">list-separator</span><span class="token punctuation">(</span><span class="token variable">$list2</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//comma（逗号）。 数组的分隔符。</span>
+</code></pre></div><h2 id="在命令行输出调试信息"><a href="#在命令行输出调试信息" class="header-anchor">#</a> <strong>在命令行输出调试信息</strong></h2> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token keyword">@debug</span> info
+</code></pre></div><p><strong>— 完 —</strong></p> <p>整理By <a href="https://github.com/iamjoel" target="_blank" rel="noopener noreferrer">Joel<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>。微信号搜索: joel007。</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/doc/dist/content/fe/style/css-util.html" class="prev">
+        CSS 工具类
+      </a></span> <span class="next"><a href="/doc/dist/content/fe/style/css-in-js.html">
+        CSS in JS
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/doc/dist/assets/js/app.cf5fde96.js" defer></script><script src="/doc/dist/assets/js/2.eaa6c1ab.js" defer></script><script src="/doc/dist/assets/js/16.a45da128.js" defer></script>
+  </body>
+</html>
