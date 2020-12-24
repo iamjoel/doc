@@ -75,7 +75,7 @@ module.exports = {
                 }]
             },
             {
-                title: '工具',
+                title: '软件 & 工具',
                 children: [
                     {
                         title: 'Markdown 及扩展',
@@ -84,6 +84,10 @@ module.exports = {
                     {
                         title: 'Git 常用命令',
                         path: '/content/software/git'
+                    },
+                    {
+                        title: 'Mac',
+                        path: '/content/software/mac'
                     }
                 ]
             }
