@@ -16,4 +16,5 @@
 * 数据库
   * [MySQL 常用命令 & SQL](content/database/mysql.md)
 * 软件
+  * [Markdown 及扩展](content/software/markdown.md)
   * [Git 常用命令](content/software/git.md)

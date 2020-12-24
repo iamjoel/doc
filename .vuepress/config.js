@@ -2,6 +2,9 @@ module.exports = {
     title: '常用文档',
     base: '/doc/dist/', // 部署站点的基础路径
     dest: './dist', // 构建输出的位置，从项目根路径开始算。
+    plugins: [
+        'vuepress-plugin-mermaidjs'
+    ],
     themeConfig: {
         nav: [{ text: 'GitHub', link: 'https://github.com/iamjoel/doc' }],
         sidebar: [
@@ -69,10 +72,16 @@ module.exports = {
             },
             {
                 title: '工具',
-                children: [{
-                    title: 'Git 常用命令',
-                    path: '/content/software/git'
-                }]
+                children: [
+                    {
+                        title: 'Markdown 及扩展',
+                        path: '/content/software/markdown'
+                    },
+                    {
+                        title: 'Git 常用命令',
+                        path: '/content/software/git'
+                    }
+                ]
             }
         ]
     }
