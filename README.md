@@ -6,6 +6,7 @@
     * [Sass 常用写法](content/fe/style/sass.md)
     * [CSS in JS](content/fe/style/css-in-js.md)
   * JavaScript
+    * [JavaScript 常用写法](content/fe/js/javascript.md)
     * [DOM 常用操作](content/fe/js/DOM.md)
     * [异步常用写法](content/fe/js/async.md)
     * [TypeScript 常见写法](content/fe/js/ts.md)

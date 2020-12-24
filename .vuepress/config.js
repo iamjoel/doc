@@ -32,6 +32,10 @@ module.exports = {
                         title: 'JavaScript',
                         children: [
                             {
+                                title: 'JavaScript 常用写法',
+                                path: '/content/fe/js/javascript'
+                            },
+                            {
                                 title: 'DOM 常用操作',
                                 path: '/content/fe/js/DOM'
                             },
