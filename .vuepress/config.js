@@ -58,11 +58,15 @@ module.exports = {
                         ]
                     },
                     {
-                        title: '框架',
+                        title: '框架 & 第三方库',
                         children: [
                             {
                                 title: 'React 常见写法',
-                                path: '/content/fe/framework/react'
+                                path: '/content/fe/libs/react'
+                            },
+                            {
+                                title: 'Mobx',
+                                path: '/content/fe/libs/mobx'
                             }
                         ]
                     },
