@@ -6,7 +6,7 @@
 
 ```css
 .ellipses{
-	overflow: hidden;
+  overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
@@ -30,15 +30,17 @@
 ## 单词强制换行
 ```css
 .word-break {
-	word-wrap: break-word;
-	word-break: break-all;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 ```
 
 ## 用阴影来突出区块
 
 ```css
-box-shadow: 0 3px 12px 0 rgba(0,0,0,.12), 0 1px 2px 0 rgba(0,0,0,.08);
+.box {
+  box-shadow: 0 3px 12px 0 rgba(0,0,0,.12), 0 1px 2px 0 rgba(0,0,0,.08);
+}
 ```
 
 ## 文字两端对其
