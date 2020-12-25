@@ -12,6 +12,10 @@ module.exports = {
                 title: '前端',
                 children: [
                     {
+                        title: 'HTML',
+                        path: '/content/fe/html'
+                    },
+                    {
                         title: '样式',
                         children: [
                             {

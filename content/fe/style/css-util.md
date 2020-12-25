@@ -27,6 +27,14 @@
 
 兼容性比较差。建议用 JS 库来做。
 
+## 单词强制换行
+```css
+.word-break {
+	word-wrap: break-word;
+	word-break: break-all;
+}
+```
+
 ## 用阴影来突出区块
 
 ```css
