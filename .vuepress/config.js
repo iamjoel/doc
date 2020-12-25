@@ -40,6 +40,10 @@ module.exports = {
                                 path: '/content/fe/js/javascript'
                             },
                             {
+                                title: 'JavaScript 工具方法',
+                                path: '/content/fe/js/util'
+                            },
+                            {
                                 title: 'DOM 常用操作',
                                 path: '/content/fe/js/DOM'
                             },

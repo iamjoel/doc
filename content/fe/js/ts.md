@@ -50,6 +50,7 @@ React.RefObject<HTMLDivElement> // ref
 
 // 事件
 React.SyntheticEvent<EventTarget> // 事件
+React.ChangeEvent<HTMLInputElement> // change事件
 React.KeyboardEvent<HTMLInputElement> // 键盘事件
 React.MouseEvent<HTMLElement> // 鼠标事件
 ```
