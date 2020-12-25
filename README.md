@@ -15,6 +15,8 @@
   * 框架 & 第三方库
     * [React 常见写法](content/fe/libs/react.md)
     * [Mobx](content/fe/libs/mobx.md)
+  * 工具
+    * [包管理工具](content/fe/tool/package-manage.md)
 * 后端
   * [Node.js 常用写法](content/backend/nodejs.md)
 * 数据库
