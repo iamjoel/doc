@@ -15,6 +15,7 @@
   * 框架 & 第三方库
     * [React 常见写法](content/fe/libs/react.md)
     * [Mobx](content/fe/libs/mobx.md)
+    * [Jest](content/fe/libs/jest.md)
   * 工具
     * [包管理工具](content/fe/tool/package-manage.md)
 * 后端

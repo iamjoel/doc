@@ -67,6 +67,10 @@ module.exports = {
                             {
                                 title: 'Mobx',
                                 path: '/content/fe/libs/mobx'
+                            },
+                            {
+                                title: 'Jest',
+                                path: '/content/fe/libs/jest'
                             }
                         ]
                     },
