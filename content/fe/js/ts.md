@@ -1,4 +1,4 @@
-# TypeScript 常见写法
+# TypeScript 常用写法
 
 ## 常见 JavaScript 类型
 ```ts

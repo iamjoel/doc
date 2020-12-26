@@ -61,8 +61,12 @@ module.exports = {
                         title: '框架 & 第三方库',
                         children: [
                             {
-                                title: 'React 常见写法',
+                                title: 'React 常用写法',
                                 path: '/content/fe/libs/react'
+                            },
+                            {
+                                title: 'Vue 2 常用写法',
+                                path: '/content/fe/libs/vue-2'
                             },
                             {
                                 title: 'Mobx',
