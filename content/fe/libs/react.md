@@ -109,6 +109,11 @@ ReactDOM.createPortal(
 )
 ```
 
+## 项目脚手架: CPA
+```js
+npx create-react-app 项目名
+```
+
 ## 文档
 
 - [React 文档](https://react.docschina.org/docs/getting-started.html)

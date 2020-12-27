@@ -27,6 +27,10 @@ module.exports = {
                                 path: '/content/fe/style/sass'
                             },
                             {
+                                title: 'CSS Modules',
+                                path: '/content/fe/style/css-modules'
+                            },
+                            {
                                 title: 'CSS in JS',
                                 path: '/content/fe/style/css-in-js'
                             }

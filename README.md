@@ -5,6 +5,7 @@
   * 样式
     * [CSS 工具类](content/fe/style/css-util.md)
     * [Sass 常用写法](content/fe/style/sass.md)
+    * [CSS Modules](content/fe/style/css-modules.md)
     * [CSS in JS](content/fe/style/css-in-js.md)
   * JavaScript
     * [JavaScript 常用写法](content/fe/js/javascript.md)

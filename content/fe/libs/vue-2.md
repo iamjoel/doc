@@ -22,7 +22,7 @@ destroyed: function(){}
 ```html
 <Comp scope="data">
 	<div>{{data}}: {a: 1, b: 'msg'}</div> 
-	<div slot="foot">foot content</div>
+	<template #foot><div>foot content</div></template>
 </Comp>
 ```
 
