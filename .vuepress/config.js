@@ -23,12 +23,16 @@ module.exports = {
                                 path: '/content/fe/style/css-util'
                             },
                             {
-                                title: 'Sass 常用写法',
+                                title: 'Sass',
                                 path: '/content/fe/style/sass'
                             },
                             {
                                 title: 'CSS Modules',
                                 path: '/content/fe/style/css-modules'
+                            },
+                            {
+                                title: 'Scoped CSS',
+                                path: '/content/fe/style/scoped-css'
                             },
                             {
                                 title: 'CSS in JS',
@@ -40,7 +44,7 @@ module.exports = {
                         title: 'JavaScript',
                         children: [
                             {
-                                title: 'JavaScript 常用写法',
+                                title: 'JavaScript ',
                                 path: '/content/fe/js/javascript'
                             },
                             {
@@ -48,15 +52,15 @@ module.exports = {
                                 path: '/content/fe/js/util'
                             },
                             {
-                                title: 'DOM 常用操作',
-                                path: '/content/fe/js/DOM'
+                                title: 'DOM & BOM',
+                                path: '/content/fe/js/DOM-BOM'
                             },
                             {
-                                title: '异步常用写法',
+                                title: '异步',
                                 path: '/content/fe/js/async'
                             },
                             {
-                                title: 'TypeScript 常用写法',
+                                title: 'TypeScript',
                                 path: '/content/fe/js/ts'
                             },
                         ]
@@ -65,11 +69,11 @@ module.exports = {
                         title: '框架 & 第三方库',
                         children: [
                             {
-                                title: 'React 常用写法',
+                                title: 'React ',
                                 path: '/content/fe/libs/react'
                             },
                             {
-                                title: 'Vue 2 常用写法',
+                                title: 'Vue 2 ',
                                 path: '/content/fe/libs/vue-2'
                             },
                             {
@@ -79,7 +83,11 @@ module.exports = {
                             {
                                 title: 'Jest',
                                 path: '/content/fe/libs/jest'
-                            }
+                            },
+                            {
+                                title: 'Taro',
+                                path: '/content/fe/libs/taro'
+                            },
                         ]
                     },
                     {
@@ -96,14 +104,14 @@ module.exports = {
             {
                 title: '后端',
                 children: [{
-                    title: 'Node.js 常用写法',
+                    title: 'Node.js ',
                     path: '/content/backend/nodejs'
                 },]
             },
             {
                 title: '数据库',
                 children: [{
-                    title: 'MySQL 常用命令 & SQL',
+                    title: 'MySQL & SQL',
                     path: '/content/database/mysql'
                 }]
             },
@@ -115,7 +123,7 @@ module.exports = {
                         path: '/content/software/markdown'
                     },
                     {
-                        title: 'Git 常用命令',
+                        title: 'Git',
                         path: '/content/software/git'
                     },
                     {

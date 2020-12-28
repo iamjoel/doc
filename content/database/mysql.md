@@ -1,4 +1,4 @@
-# MySQL 常用命令 & SQL
+# MySQL & SQL
 
 ## 命令行登录 & 退出
 

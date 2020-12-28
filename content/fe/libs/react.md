@@ -1,4 +1,4 @@
-# React 常用写法
+# React
 
 ## Class 组件
 

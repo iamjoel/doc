@@ -1,4 +1,4 @@
-# JavaScript 常用写法
+# JavaScript
 
 ## 数字
 
