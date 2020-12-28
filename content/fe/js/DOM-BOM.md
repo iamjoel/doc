@@ -4,7 +4,7 @@
 
 ### 查找元素
 
-```jsx
+```js
 document.querySelector(selector) // 返回 1个。找不到返回 null
 document.querySelectorAll(selector) // 返回数组，包含所有满足条件的元素。找不到返回空数组。
 document.getElementById(id)
@@ -24,19 +24,19 @@ Array.prototype.filter.call(el.parentNode.children, function(child){
 
 ### 过滤元素
 
-```jsx
+```js
 Array.prototype.filter.call(document.querySelectorAll(selector), filterFn)
 ```
 
 ### 删除元素
 
-```jsx
+```js
 el.parentNode.removeChild(el)
 ```
 
 ### 获取 & 设置 HTML
 
-```jsx
+```js
 el.innerHTML
 el.innerHTML = '<div>...</div>'
 el.outerHTML // 包含自身
@@ -46,14 +46,14 @@ el.outerHTML // 包含自身
 
 ### 获取 & 设置  Text
 
-```jsx
+```js
 el.textContent
 el.textContent = 'balbal...'
 ```
 
 ### 获取 & 设置属性
 
-```jsx
+```js
 el.getAttribute(attributeName)
 el.setAttribute(attributeName, value)
 ```
@@ -62,13 +62,13 @@ el.setAttribute(attributeName, value)
 
 ### 类名包含判断(has Class)
 
-```jsx
+```js
 el.classList.contains(className)
 ```
 
 ### 添加 & 删除类名
 
-```jsx
+```js
 el.classList.add(className)
 el.classList.remove(className)
 el.classList.toggle(className)
@@ -76,14 +76,14 @@ el.classList.toggle(className)
 
 ### 获取样式
 
-```jsx
+```js
 // 注意 ruleName 是驼峰的。 如: marginTop 而不是 margin-top
 getComputedStyle(el, null).ruleName 
 ```
 
 ### 获取大小 & 位置信息
 
-```jsx
+```js
 // x, y, right, bottom 是距视口的值
 const {x, y, right, bottom, width, height} = elem.getBoundingClientRect()
 const top = y + document.body.scrollTop // 距页面顶部的值
@@ -94,27 +94,27 @@ const left = x + document.body.scrollLeft // 距页面左侧的值
 
 ### 视口大小
 
-```jsx
+```js
 window.innerHeight
 window.innerWidth
 ```
 
 ### 获取滚动条滚动距离
 
-```jsx
+```js
 el.scrollTop
 el.scrollLeft
 ```
 
 ### 设置样式
 
-```jsx
+```js
 el.style.ruleName = value
 ```
 
 ### 隐藏 & 显示
 
-```jsx
+```js
 // 不占位
 el.style.display = 'none' // 隐藏
 el.style.display = '' // 显示
@@ -126,7 +126,7 @@ el.style.visibility = 'visible' // 显示
 
 ### 滚动到指定元素
 
-```jsx
+```js
 function scrollIntoView(scrollDom, tarDom, offset) {
     let top = getOffsetTop(tarDom) - getOffsetTop(scrollDom);
     if (offset) {
@@ -173,13 +173,13 @@ function getOffsetTop(dom) {
 
 ### 添加事件
 
-```jsx
+```js
 el.addEventListener(eventName, eventHandler)
 ```
 
 ### 事件委托
 
-```jsx
+```js
 const handler = e => {} // 处理函数
 document.addEventListener(eventName, function(e) {
     // 循环找到被代理的节点
@@ -194,36 +194,60 @@ document.addEventListener(eventName, function(e) {
 
 ### 阻止事件冒泡
 
-```jsx
+```js
 event.stopPropagation()
 event.nativeEvent.stopImmediatePropagation() // react 中，阻止冒泡到原生的事件绑定。
 ```
 
 ### 阻止默认行为
 
-```jsx
+```js
 event.preventDefault()
 ```
 
 ### 移除事件
 
-```jsx
+```js
 el.removeEventListener(eventName, eventHandler)
 ```
 
 ### 获得&失去焦点
 
-```jsx
+```js
 inputElem.focus()
 inputElem.blur()
 ```
 
 ### 自定义事件
 
-```jsx
+```js
 const event = new Event('build');
 elem.addEventListener('build', handler, false);// 绑定事件
 elem.dispatchEvent(event, data)// 触发事件
+```
+
+## [Fetch API](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API/Using_Fetch)
+```js
+fetch(url, {
+    method: 'POST',
+    body: JSON.stringify(data), // must match 'Content-Type' header
+    headers: {
+      'content-type': 'application/json'
+    },
+}).then(response => response.json())
+```
+
+上传文件
+```js
+const fileField = document.querySelector("input[type='file']");
+
+formData.append('username', 'abc123');
+formData.append('avatar', fileField.files[0]);
+
+fetch('https://example.com/profile/avatar', {
+  method: 'PUT',
+  body: formData
+})
 ```
 
 ## 更多
