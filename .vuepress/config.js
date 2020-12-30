@@ -135,6 +135,16 @@ module.exports = {
                         path: '/content/software/mac'
                     }
                 ]
+            },
+            {
+                title: '做事',
+                path: '/content/do',
+                children: [
+                    {
+                        title: '写作检查列表',
+                        path: '/content/do/write'
+                    }
+                ]
             }
         ]
     }

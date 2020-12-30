@@ -31,3 +31,5 @@
   * [Markdown 及扩展](content/software/markdown.md)
   * [Git](content/software/git.md)
   * [Mac](content/software/mac.md)
+* 做事
+  * [写作检查列表](content/do/write.md)
