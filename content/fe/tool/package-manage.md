@@ -11,7 +11,12 @@ npm init -y
 ```bash
 cd 要调试的第三方模块的代码
 npm link
+
+cd 用第三方模块的项目
+npm link 第三方模块的包名
 ```
+
+更多:  [`npm link`](https://javascript.ruanyifeng.com/nodejs/npm.html#toc18)。
 
 ## 全局包操作
 
