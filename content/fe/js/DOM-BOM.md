@@ -74,11 +74,13 @@ el.classList.remove(className)
 el.classList.toggle(className)
 ```
 
-### 获取样式
+### 获取 & 设置样式
 
 ```js
 // 注意 ruleName 是驼峰的。 如: marginTop 而不是 margin-top
-getComputedStyle(el, null).ruleName 
+getComputedStyle(el, null).ruleName
+
+el.style.ruleName = styleVale
 ```
 
 ### 获取大小 & 位置信息
