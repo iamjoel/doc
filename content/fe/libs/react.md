@@ -100,6 +100,23 @@ Comp.defaultProps = {
 }
 ```
 
+## Context API
+```jsx
+const ctx = React.createContext()
+const { Provider, Consumer } = ctx
+
+<Provider value={{name: 'joel'}}>
+  <Consumer>
+    {ctx => ( // Provider 上 value 属性的值
+      <Component
+        {...props}
+        name={ctx.name}
+      />
+    )}
+  </Consumer>
+</Provider>
+```
+
 ## Portals
 
 ```jsx
