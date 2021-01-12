@@ -252,6 +252,18 @@ fetch('https://example.com/profile/avatar', {
 })
 ```
 
+## 探测浏览器是否支持某个 HTML 属性
+给元素上设置属性，再获取属性，看值是否相同。
+
+```js
+const isSupportsPlaintextEdit = () => {
+    const div = document.createElement('div');
+    div.setAttribute('contenteditable', 'PLAINTEXT-ONLY');
+
+    return div.contentEditable === 'plaintext-only';
+}
+```
+
 ## 更多
 
 - [You might not need jQuery](http://youmightnotneedjquery.com/)
