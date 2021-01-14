@@ -122,6 +122,9 @@ Omit<{
 ```ts
 // @ts-ignore
 // tslint:disable-next-line
+// tslint:disable-line
+/* tslint:disable */ // 这行代码以下的不 Lint
+/* tslint:enable */ // 这行代码以下的 Lint
 ```
 
 **— 完 —**
