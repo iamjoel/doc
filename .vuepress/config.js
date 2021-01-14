@@ -138,8 +138,11 @@ module.exports = {
             },
             {
                 title: '做事',
-                path: '/content/do',
                 children: [
+                    {
+                        title: '工具箱',
+                        path: '/content/do/tools/'
+                    },
                     {
                         title: '写作检查列表',
                         path: '/content/do/write'

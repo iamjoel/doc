@@ -32,4 +32,5 @@
   * [Git](content/software/git.md)
   * [Mac](content/software/mac.md)
 * 做事
+  * [工具箱](content/do/tools/README.md)
   * [写作检查列表](content/do/write.md)
