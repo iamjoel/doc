@@ -31,6 +31,8 @@
   * [Markdown 及扩展](content/software/markdown.md)
   * [Git](content/software/git.md)
   * [Mac](content/software/mac.md)
+  * [HHKB 配置 Karabiner-Elements 改键位](content/software/hhkb.md)
+  * [鼠须管配置（default.custom.yaml)](content/software/rime.md)
 * 做事
   * [工具箱](content/do/tools/README.md)
   * [写作检查列表](content/do/write.md)

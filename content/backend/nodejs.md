@@ -103,6 +103,9 @@ path.normalize('/foo/bar//baz/asdf/quux/..');
 // 返回: '/foo/bar/baz/asdf'
 ```
 
+## 资源
+* [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
+
 **— 完 —**
 
 整理By [Joel](https://github.com/iamjoel)。微信号搜索: joel007。

@@ -126,6 +126,11 @@ Omit<{
 /* tslint:disable */ // 这行代码以下的不 Lint
 /* tslint:enable */ // 这行代码以下的 Lint
 ```
+### 传入不被用到的函数参数
+
+```js
+doSth(_:any, 'aaa') // _:any。 传 undefined, void 等都不行。
+```
 
 **— 完 —**
 

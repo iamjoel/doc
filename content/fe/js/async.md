@@ -64,6 +64,13 @@ asyncFn1()
 ```jsx
 await Promise.all([asyncFn1(), asyncFn2(), asyncFn3()])
 await Promise.all(asyncFnArr.map(asyncFn => asyncFn()))
+
+// 有 reject 也能进 then
+Promise.allSettled([
+	Promise.reject(),
+	Promise.resolve(1),
+	Promise.resolve(2)
+]).then(res => console.log(res.filter(item => item.status !== 'rejected')))
 ```
 
 ### 一个异步完成
