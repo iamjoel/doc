@@ -32,3 +32,7 @@ function throttle(fun, delay) {
   }
 }
 ```
+
+## 推荐阅读
+
+- [1 LOC](https://1loc.dev/) JavaScript Utilities in single line of code

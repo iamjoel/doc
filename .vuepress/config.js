@@ -111,10 +111,16 @@ module.exports = {
             },
             {
                 title: '后端',
-                children: [{
-                    title: 'Node.js ',
-                    path: '/content/backend/nodejs'
-                },]
+                children: [
+                    {
+                        title: 'Node.js',
+                        path: '/content/backend/nodejs'
+                    },
+                    {
+                        title: '收藏 ',
+                        path: '/content/backend/bookmark'
+                    },
+                ]
             },
             {
                 title: '数据库',

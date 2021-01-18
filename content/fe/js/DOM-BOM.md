@@ -265,7 +265,7 @@ const isSupportsPlaintextEdit = () => {
 ```
 
 ## 更多
-
+- [how to manage HTML DOM with vanilla JavaScript only?](https://htmldom.dev/)
 - [You might not need jQuery](http://youmightnotneedjquery.com/)
 
 **— 完 —**
