@@ -16,6 +16,10 @@ module.exports = {
                         path: '/content/fe/link'
                     },
                     {
+                        title: '收藏',
+                        path: '/content/fe/bookmark'
+                    },
+                    {
                         title: 'HTML',
                         path: '/content/fe/html'
                     },

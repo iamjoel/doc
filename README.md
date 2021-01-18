@@ -1,7 +1,7 @@
 # 我的常用文档
 ## 目录
 * 前端
-  * [常用网站](content/fe/link.md)
+  * [常用网站](content/fe/link.md) & [收藏](content/fe/bookmark.md) 
   * [HTML](content/fe/html.md)
   * 样式
     * [CSS 工具类](content/fe/style/css-util.md)
