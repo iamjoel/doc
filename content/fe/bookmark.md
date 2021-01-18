@@ -14,6 +14,9 @@
 * [State of JS](https://stateofjs.com/) JS 发展情况的每年的总结。
 * [Best Of JS](https://bestofjs.org/) 优秀开源库筛选。
 * [码农周刊一周精选分类](https://github.com/rogerzhu/MNWeeklyCategory)
+* 远程工作
+  * [Awesome Remote Job](https://github.com/lukasz-madon/awesome-remote-job)
+  * [Remote-friendly companies](https://github.com/remoteintech/remote-jobs)
 
 ## 其他
 * [How browsers work](http://taligarsiel.com/Projects/howbrowserswork1.htm) Behind the scenes of modern web browsers。
