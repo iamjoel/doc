@@ -48,6 +48,9 @@ JSX.Element // 元素
 React.ComponentType // 组件类型 
 React.RefObject<HTMLDivElement> // ref
 
+// 样式
+React.CSSProperties
+
 // 事件
 React.SyntheticEvent<EventTarget> // 事件
 React.ChangeEvent<HTMLInputElement> // change事件
