@@ -54,6 +54,21 @@ function Comp(props) {
 const MemoComp = React.memo(Comp)
 ```
 
+## useCallback 中用 useRef 获取最新值
+
+```jsx
+const listRef = useRef(list)
+
+const setListWithRef = (newList) => {
+  setList(newList)
+  listRef.current = newList
+}
+
+const renderList = useCallback(() => {
+  return (<List list={listRef.current} setList={setListWithRef} />)
+}, [])
+```
+
 ## 生命周期
 
 ```jsx
