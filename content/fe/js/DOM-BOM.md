@@ -153,6 +153,13 @@ function getOffsetTop(dom) {
 }
 ```
 
+### 异步获取下载链接，下载文件
+
+```jsx
+const url = await fetchDownloadLink()
+location.href = url
+```
+
 ## 事件
 
 ### 常见事件

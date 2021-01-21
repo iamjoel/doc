@@ -28,10 +28,11 @@
   * [收藏](content/backend/bookmark.md)
 * 数据库
   * [MySQL & SQL](content/database/mysql.md)
-* 软件
+* 软件 & 工具
   * [Markdown 及扩展](content/software/markdown.md)
   * [Git](content/software/git.md)
   * [Mac](content/software/mac.md)
+  * [whistle - 跨平台 Web 调试代理工具](content/software/whistle.md)
   * [HHKB 配置 Karabiner-Elements 改键位](content/software/hhkb.md)
   * [鼠须管配置（default.custom.yaml)](content/software/rime.md)
 * 做事

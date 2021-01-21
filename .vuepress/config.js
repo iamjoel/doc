@@ -143,7 +143,20 @@ module.exports = {
                     {
                         title: 'Mac',
                         path: '/content/software/mac'
-                    }
+                    },
+                    {
+                        title: 'whistle - 跨平台 Web 调试代理工具',
+                        path: '/content/software/whistle'
+                    },
+                    {
+                        title: 'HHKB 配置 Karabiner-Elements 改键位',
+                        path: '/content/software/hhkb'
+                    },
+                    {
+                        title: '鼠须管配置（default.custom.yaml)',
+                        path: '/content/software/rime'
+                    },
+                    
                 ]
             },
             {
