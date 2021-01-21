@@ -9,6 +9,16 @@
 ## 算法
 * [JavaScript 算法与数据结构](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
 
+## 框架
+- React
+    - 组件
+        - [你想知道的React组件设计模式这里都有(上)](https://mp.weixin.qq.com/s/1LJj00h7cspibXNuQ-ZggA)。 对应 [代码](https://github.com/imalextu/learn-react-patterns)。
+        - [你想知道的 React 组件设计模式这里都有(下)](https://juejin.cn/post/6844903907433381901)
+    - Hooks
+        - [精读《React Hooks》](https://zhuanlan.zhihu.com/p/49408348)
+        - [React Hooks(一): From Redux to Hooks](https://zhuanlan.zhihu.com/p/83552786)
+        - [React Hooks(二): useCallback 之痛](https://zhuanlan.zhihu.com/p/98554943)
+
 ## 资源
 * [CSS Layout 模式](https://csslayout.io/) a collection of popular layouts and patterns made with CSS。
 * [State of JS](https://stateofjs.com/) JS 发展情况的每年的总结。
