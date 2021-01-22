@@ -21,7 +21,7 @@ module.exports = {
                     },
                     {
                         title: 'HTML',
-                        path: '/content/fe/html'
+                        path: '/content/fe/html/'
                     },
                     {
                         title: '样式',
@@ -160,6 +160,23 @@ module.exports = {
                 ]
             },
             {
+                title: 'VSCode 片段',
+                children: [
+                    {
+                        title: 'HTML',
+                        path: '/content/fe/html/0-snippet'
+                    },
+                    {
+                        title: 'CSS',
+                        path: '/content/fe/style/0-snippet'
+                    },
+                    {
+                        title: 'JavaScript',
+                        path: '/content/fe/js/0-snippet'
+                    }
+                ]
+            },
+            {
                 title: '做事',
                 children: [
                     {
@@ -171,7 +188,8 @@ module.exports = {
                         path: '/content/do/write'
                     }
                 ]
-            }
+            },
+            
         ]
     }
 };

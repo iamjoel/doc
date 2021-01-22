@@ -1,0 +1,65 @@
+# VSCode - CSS 代码片段
+## Flex
+```json
+"display flex": {
+  "prefix": "j:ly",
+  "description": "Flex 布局",
+  "body": [
+    "display: flex;",
+  ],
+},
+"flex row center": {
+  "prefix": "j:ly-c",
+  "description": "水平居中",
+  "body": [
+    "justify-content: center;",
+  ],
+},
+"flex row justify": {
+  "prefix": "j:ly-j",
+  "description": "水平两端对齐",
+  "body": [
+    "justify-content: space-between;",
+  ],
+},
+"flex column center": {
+  "prefix": "j:ly-m",
+  "description": "垂直居中",
+  "body": [
+    "align-items: center;",
+  ]
+},
+"flex row multi": {
+  "prefix": "j:ly-multi",
+  "description": "多行",
+  "body": [
+    "flex-wrap: wrap;",
+  ],
+}
+```
+
+## 样式规则
+```json
+"text overflow ellipsis": {
+  "prefix": "j:t-ddd",
+  "description": "文本超出隐藏",
+  "body": [
+    "overflow: hidden;",
+    "white-space: nowrap;",
+    "text-overflow: ellipsis;",
+  ],
+}
+```
+
+## CSS Modules
+```json
+"css modules global": {
+  "prefix": "j:css-global",
+  "description": "全局样式",
+  "body": [
+    ":global {",
+    "  $1",
+    "}"
+  ],
+}
+```

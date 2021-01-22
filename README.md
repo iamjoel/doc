@@ -3,7 +3,7 @@
 * 前端
   * [常用网站](content/fe/link.md) & [收藏](content/fe/bookmark.md) 
   * [HTML](content/fe/html.md)
-  * 样式
+  * 样式 
     * [CSS 工具类](content/fe/style/css-util.md)
     * [Sass](content/fe/style/sass.md)
     * [CSS Modules](content/fe/style/css-modules.md)
@@ -35,6 +35,8 @@
   * [whistle - 跨平台 Web 调试代理工具](content/software/whistle.md)
   * [HHKB 配置 Karabiner-Elements 改键位](content/software/hhkb.md)
   * [鼠须管配置（default.custom.yaml)](content/software/rime.md)
+* VSCode 片段
+  * [CSS](content/fe/style/0-snippet.md)
 * 做事
   * [工具箱](content/do/tools/README.md)
   * [写作检查列表](content/do/write.md)
