@@ -54,6 +54,34 @@ function Comp(props) {
 const MemoComp = React.memo(Comp)
 ```
 
+## HOC - 高阶组件
+
+```jsx
+// 定义
+function withName (Component) {
+  return (props) => <Component {...props} name="Joel"/>
+}
+
+// 使用。用装饰器看起来更舒服。
+const WithNameComp = withName(Comp)
+```
+
+## renderProps
+
+```jsx
+// 定义
+function Provider (props) {
+  return <div>{props.children({name: 'Joel', ...props})}</div>
+}
+
+// 使用
+<Provider>
+  {(props) => {
+    return <Comp name={props.name}/>
+  }}
+</Provider>
+```
+
 ## useCallback 中用 useRef 获取最新值
 
 ```jsx
