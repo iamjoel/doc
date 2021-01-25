@@ -69,7 +69,7 @@ module.exports = {
                             },
                             {
                                 title: 'TypeScript',
-                                path: '/content/fe/js/ts'
+                                path: '/content/fe/js/ts/'
                             },
                         ]
                     },
@@ -134,7 +134,7 @@ module.exports = {
                 children: [
                     {
                         title: 'Markdown 及扩展',
-                        path: '/content/software/markdown'
+                        path: '/content/software/markdown/'
                     },
                     {
                         title: 'Git',
@@ -173,7 +173,15 @@ module.exports = {
                     {
                         title: 'JavaScript',
                         path: '/content/fe/js/0-snippet'
-                    }
+                    },
+                    {
+                        title: 'TypeScript',
+                        path: '/content/fe/js/ts/0-snippet'
+                    },
+                    {
+                        title: 'Markdown',
+                        path: '/content/software/markdown/0-snippet'
+                    },
                 ]
             },
             {

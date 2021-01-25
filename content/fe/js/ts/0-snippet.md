@@ -1,0 +1,24 @@
+# VSCode - TypeScript 代码片段
+```json
+"obj array type": {
+  "prefix": "j:ts-obj-arr-type",
+  "description": "对象数组类型",
+  "body": [
+    "{[key: string]: any}[]",
+  ],
+},
+"obj type": {
+  "prefix": "j:ts-obj-type",
+  "description": "对象类型",
+  "body": [
+    "{[key: string]: any}",
+  ],
+},
+"ts disabled": {
+  "prefix": "j:ts-disabled",
+  "description": "下一行禁用 ts lint",
+  "body": [
+    "//tslint:disable-next-line",
+  ],
+}
+```
