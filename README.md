@@ -16,11 +16,11 @@
     * [异步](content/fe/js/async.md)
     * [TypeScript ](content/fe/js/ts/README.md)
   * 框架 & 第三方库
-    * [React](content/fe/libs/react.md)
+    * [React](content/fe/libs/react/README.md)
     * [Vue 2](content/fe/libs/vue-2.md)
     * [Mobx](content/fe/libs/mobx.md)
     * [Jest](content/fe/libs/jest.md)
-    * [Taro](content/fe/libs/taro.md)
+    * [Taro](content/fe/libs/taro/README.md)
   * 工具
     * [包管理工具](content/fe/tool/package-manage.md)
 * 后端
@@ -34,12 +34,14 @@
   * [Mac](content/software/mac.md)
   * [whistle - 跨平台 Web 调试代理工具](content/software/whistle.md)
   * [HHKB 配置 Karabiner-Elements 改键位](content/software/hhkb.md)
-  * [鼠须管配置（default.custom.yaml)](content/software/rime.md)
+  * [鼠须管配置（default.custom.yaml）](content/software/rime.md)
 * VSCode 片段
   * [HTML](content/fe/html/0-snippet.md)
   * [CSS](content/fe/style/0-snippet.md)
   * [JavaScript](content/fe/js/0-snippet.md)
   * [TypeScript](content/fe/js/ts/0-snippet.md)
+  * [React](content/fe/libs/react/0-snippet.md)
+  * [Taro](content/fe/libs/taro/0-snippet.md)
   * [Markdown](content/software/markdown/0-snippet.md)
 * 做事
   * [工具箱](content/do/tools/README.md)

@@ -78,7 +78,7 @@ module.exports = {
                         children: [
                             {
                                 title: 'React ',
-                                path: '/content/fe/libs/react'
+                                path: '/content/fe/libs/react/'
                             },
                             {
                                 title: 'Vue 2 ',
@@ -94,7 +94,7 @@ module.exports = {
                             },
                             {
                                 title: 'Taro',
-                                path: '/content/fe/libs/taro'
+                                path: '/content/fe/libs/taro/'
                             },
                         ]
                     },
@@ -177,6 +177,14 @@ module.exports = {
                     {
                         title: 'TypeScript',
                         path: '/content/fe/js/ts/0-snippet'
+                    },
+                    {
+                        title: 'React',
+                        path: '/content/fe/libs/react/0-snippet'
+                    },
+                    {
+                        title: 'Taro',
+                        path: '/content/fe/libs/taro/0-snippet'
                     },
                     {
                         title: 'Markdown',
