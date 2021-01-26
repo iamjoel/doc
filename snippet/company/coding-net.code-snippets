@@ -1,0 +1,32 @@
+{
+	
+	"Print to console": {
+		"prefix": "j:release",
+		"description": "Release Template",
+		"body": [
+			"## 更新日期",
+			"",
+			"## ChangeLog",
+			"* 功能改动1。开发 @金伟强 ，关联 [#]()",
+			"",
+			"## Diff",
+			"https://codingcorp.coding.net/p/project-management/d/project-management/git/compare/{prevCommitId}...{commitId}",
+			"",
+			"## 发布类型",
+			"常规更新",
+			"",
+			"## 负责人",
+			"@金伟强",
+			"",
+			"## Master",
+			"```",
+			"{commitId}",
+			"```",
+			"",
+			"## 测试地址",
+			"http://e.coding.testing-1-corp.coding.io/signin?buffet={commitId}",
+			"http://e.staging-corp.coding.io/signin?buffet={commitId}",
+			"https://e.coding.net/signin?buffet={commitId}",
+		],
+	}
+}
