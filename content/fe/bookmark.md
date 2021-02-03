@@ -25,6 +25,7 @@
         - [React Hooks(二): useCallback 之痛](https://zhuanlan.zhihu.com/p/98554943)
 
 ## 资源
+- [Web 年鉴](https://almanac.httparchive.org/zh-CN/2020/)
 - [CSS Layout 模式](https://csslayout.io/) a collection of popular layouts and patterns made with CSS。
 - [State of CSS](https://2020.stateofcss.com/en-US/)
 - [State of JS](https://stateofjs.com/) JS 发展情况的每年的总结。
@@ -39,6 +40,14 @@
   - [Remote-friendly companies](https://github.com/remoteintech/remote-jobs)
 - 团队
   - [淘系前端团队](https://fed.taobao.org/)
+    - [博客](https://juejin.cn/user/2119514149365742/posts)
+  - [腾讯IMWeb前端团队](https://imweb.io/)
+    - [博客](https://juejin.cn/user/764915822116382)
+  - [奇舞团](https://75.team/)
+    - [奇舞周刊](https://weekly.75.team/)
   - [政采云](https://zoo.team/)
+  - [字节前端](https://juejin.cn/user/4098589725834317/posts)
+- 综合
+  - [Frontend Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/) Frontend Master
 ## 其他
 - [How browsers work](http://taligarsiel.com/Projects/howbrowserswork1.htm) Behind the scenes of modern web browsers。
