@@ -78,7 +78,13 @@ module.exports = {
                         children: [
                             {
                                 title: 'React ',
-                                path: '/content/fe/libs/react/'
+                                path: '/content/fe/libs/react/',
+                                children: [
+                                    {
+                                        title: 'react window',
+                                        path: '/content/fe/libs/react/react-window'
+                                    }
+                                ]
                             },
                             {
                                 title: 'Vue 2 ',
