@@ -4,10 +4,10 @@
 "react-component-template": {
   "prefix": "j:react-comp",
   "body": [
-    "import React, { Component } from 'react'",
+    "import React from 'react'",
     "import PropTypes from 'prop-types'",
     "",
-    "class $1 extends Component {",
+    "class $1 extends React.Component {",
     "  static propTypes = {",
     "    classNames: PropTypes.string,",
     "  }",
@@ -35,7 +35,7 @@
 "react-component-template-ts": {
   "prefix": "j:react-comp-ts",
   "body": [
-    "import React, { Component } from 'react'",
+    "import React from 'react'",
     "import s from './index.scss'",
     "",
     "export interface I$1Props {",

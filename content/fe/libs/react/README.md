@@ -14,7 +14,7 @@ class Comp extends React.Component {
   render() {
     return (
       <div>
-        <input type="text" onChange={handleChange} ref={inputRef}/>
+        <input type="text" onChange={this.handleChange} ref={this.inputRef}/>
       </div>
     )
   }
