@@ -47,6 +47,23 @@ git merge next
 git ph
 ```
 
+## 将多次 Commit 合并成一次
+
+```bash
+# 1 rebase
+git rebase -i commitId # 要 合并 的前一次
+
+# 2 编辑内容
+# 2.1 将第一个 commitId 前的 pick 改成 r
+# 2.2 将其他的 commitId 前的 pick 改成 f
+
+## 3 修改提交信息
+# 2 结束后，会出现编辑器来改提交信息。
+
+## 4 强推
+git push -f
+```
+
 ## 配置别名
 
 ```bash
