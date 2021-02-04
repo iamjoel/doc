@@ -4,7 +4,7 @@
 		"body": [
 			"import React, { Component } from 'react'",
 			"import PropTypes from 'prop-types'",
-			"import s from './index.scss'",
+			"import s from './style.scss'",
 			"",
 			"class $1 extends Component {",
 			"  static propTypes = {",

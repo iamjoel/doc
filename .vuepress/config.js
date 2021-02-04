@@ -137,6 +137,7 @@ module.exports = {
             },
             {
                 title: '软件 & 工具',
+                path: '/content/software/',
                 children: [
                     {
                         title: 'Markdown 及扩展',

@@ -29,7 +29,7 @@
   * [收藏](content/backend/bookmark.md)
 * 数据库
   * [MySQL & SQL](content/database/mysql.md)
-* 软件 & 工具
+* [软件 & 工具](content/software/README.md)
   * [Markdown 及扩展](content/software/markdown/README.md)
   * [Git](content/software/git.md)
   * [Mac](content/software/mac.md)

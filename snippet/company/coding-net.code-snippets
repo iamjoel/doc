@@ -4,7 +4,9 @@
 		"prefix": "j:release",
 		"description": "Release Template",
 		"body": [
+			"$CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE.1",
 			"## 更新日期",
+			"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
 			"",
 			"## ChangeLog",
 			"* 功能改动1。开发 @金伟强 ，关联 [#]()",
