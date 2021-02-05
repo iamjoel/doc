@@ -5,11 +5,13 @@
   - [hacker-laws](https://github.com/dwmkerr/hacker-laws) 对开发人员有用的定律、理论、原则和模式。 [中文版](https://github.com/nusr/hacker-laws-zh)。
 - 示例
   - [clean code Javascript](https://github.com/ryanmcdermott/clean-code-javascript)
-- 组件设计方法
+- 组件设计方法 [中文翻译](https://zhuanlan.zhihu.com/p/137173868)
   - [Atomic Design](https://atomicdesign.bradfrost.com/table-of-contents/)
     - [组件化设计：原子设计实践](https://zhuanlan.zhihu.com/p/99737118)
   - [React组件设计实践总结02 - 组件的组织](https://juejin.cn/post/6844903843189243917)
   - [编写高质量可维护的代码：组件的抽象与粒度](https://zoo.team/article/abstraction-and-granularity-of-component)
+- 原子 CSS
+  - [Facebook 重构：抛弃 Sass / Less ，迎接原子化 CSS 时代](https://juejin.cn/post/6917073600474415117) [Tailwind CSS](https://tailwindcss.com/)
 
 ## 算法
 - [JavaScript 算法与数据结构](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
@@ -47,6 +49,8 @@
     - [奇舞周刊](https://weekly.75.team/)
   - [政采云](https://zoo.team/)
   - [字节前端](https://juejin.cn/user/4098589725834317/posts)
+- Podcast
+  - [Front end happy hour](http://frontendhappyhour.com/)
 - 综合
   - [Frontend Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/) Frontend Master
 ## 其他
