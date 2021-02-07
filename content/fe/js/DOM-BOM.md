@@ -1,5 +1,4 @@
-# DOM & BOM
-
+# DOM & BOM 常用操作
 ## 元素
 
 ### 查找元素
@@ -78,40 +77,9 @@ el.classList.toggle(className)
 
 ```js
 // 注意 ruleName 是驼峰的。 如: marginTop 而不是 margin-top
-getComputedStyle(el, null).ruleName
+getComputedStyle(el, null).ruleName 
 
 el.style.ruleName = styleVale
-```
-
-### 获取大小 & 位置信息
-
-```js
-// x, y, right, bottom 是距视口的值
-const {x, y, right, bottom, width, height} = elem.getBoundingClientRect()
-const top = y + document.body.scrollTop // 距页面顶部的值
-const left = x + document.body.scrollLeft // 距页面左侧的值
-```
-
-详情信息见[这里](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)。
-
-### 视口大小
-
-```js
-window.innerHeight
-window.innerWidth
-```
-
-### 获取滚动条滚动距离
-
-```js
-el.scrollTop
-el.scrollLeft
-```
-
-### 设置样式
-
-```js
-el.style.ruleName = value
 ```
 
 ### 隐藏 & 显示
@@ -124,6 +92,41 @@ el.style.display = '' // 显示
 // 占位
 el.style.visibility = 'hidden' // 隐藏
 el.style.visibility = 'visible' // 显示
+```
+
+### 获取大小 & 位置信息
+
+```js
+// x, y, right, bottom 是距视口的值
+const {x, y, right, bottom, width, height} = elem.getBoundingClientRect()
+const top = y + document.body.scrollTop // 距页面顶部的值
+const left = x + document.body.scrollLeft // 距页面左侧的值
+
+elem.clineHeight // 包含 content height 和 padding
+elem.offsetHeight // elem.clineHeight + border + margin
+```
+
+详情信息见[这里](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)。
+
+### 视口大小
+
+```js
+window.innerHeight
+window.innerWidth
+```
+
+### 判断是否有滚动条
+
+```js
+//显示滚动条
+elem.scrollHeight - elem.offsetHeight > 0
+```
+
+### 获取滚动条滚动距离
+
+```js
+el.scrollTop
+el.scrollLeft
 ```
 
 ### 滚动到指定元素
@@ -155,7 +158,7 @@ function getOffsetTop(dom) {
 
 ### 异步获取下载链接，下载文件
 
-```jsx
+```js
 const url = await fetchDownloadLink()
 location.href = url
 ```
@@ -236,6 +239,7 @@ elem.dispatchEvent(event, data)// 触发事件
 ```
 
 ## [Fetch API](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API/Using_Fetch)
+
 ```js
 fetch(url, {
     method: 'POST',
@@ -247,6 +251,7 @@ fetch(url, {
 ```
 
 上传文件
+
 ```js
 const fileField = document.querySelector("input[type='file']");
 
@@ -260,6 +265,7 @@ fetch('https://example.com/profile/avatar', {
 ```
 
 ## 探测浏览器是否支持某个 HTML 属性
+
 给元素上设置属性，再获取属性，看值是否相同。
 
 ```js
@@ -272,9 +278,10 @@ const isSupportsPlaintextEdit = () => {
 ```
 
 ## 更多
+
 - [how to manage HTML DOM with vanilla JavaScript only?](https://htmldom.dev/)
 - [You might not need jQuery](http://youmightnotneedjquery.com/)
 
 **— 完 —**
 
-整理 By [Joel](https://github.com/iamjoel)。微信号搜索: joel007。
+整理By [Joel](https://github.com/iamjoel)。微信号搜索: joel007。
