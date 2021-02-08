@@ -12,7 +12,7 @@
   * JavaScript
     * [JavaScript](content/fe/js/javascript.md)
     * [JavaScript 工具方法](content/fe/js/util.md)
-    * [DOM & BOM](content/fe/js/DOM-BOM.md)
+    * [DOM & BOM](content/fe/js/DOM-BOM/README.md)
     * [异步](content/fe/js/async.md)
     * [TypeScript ](content/fe/js/ts/README.md)
   * 框架 & 第三方库

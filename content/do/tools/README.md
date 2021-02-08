@@ -7,6 +7,7 @@
   * 成熟度曲线: HYPE曲线
 * 计划 & 执行
   * [SMART 原则](content/smart.md)
+  * [MECE 分析法](content/mece.md)
 * 改善
   * [PDCA 循环](content/pdca.md)
 * 学习

@@ -61,7 +61,7 @@ module.exports = {
                             },
                             {
                                 title: 'DOM & BOM',
-                                path: '/content/fe/js/DOM-BOM'
+                                path: '/content/fe/js/DOM-BOM/'
                             },
                             {
                                 title: '异步',
