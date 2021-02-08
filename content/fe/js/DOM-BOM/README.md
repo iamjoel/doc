@@ -264,6 +264,18 @@ fetch('https://example.com/profile/avatar', {
   body: formData
 })
 ```
+## 操作系统判断
+
+```js
+function detectIsWindows() {
+  const agent = navigator.userAgent.toLowerCase()
+  return agent.indexOf('win32') >= 0 || agent.indexOf('wow32') >= 0 || agent.indexOf('win64') >= 0 || agent.indexOf('wow64') >= 0
+}
+
+function detectIsMac() {
+  return /macintosh|mac os x/i.test(navigator.userAgent);
+}
+```
 
 ## 探测浏览器是否支持某个 HTML 属性
 
