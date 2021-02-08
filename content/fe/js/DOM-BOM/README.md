@@ -95,7 +95,7 @@ el.style.visibility = 'visible' // 显示
 ```
 
 ### 获取大小 & 位置信息
-![大小 & 位置信息](images/size.png)
+![大小 & 位置信息](./images/size.png)
 
 ```js
 // x, y, right, bottom 是距视口的值
