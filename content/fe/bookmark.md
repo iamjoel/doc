@@ -18,13 +18,17 @@
 
 ## 框架
 - React
-    - 组件
-        - [你想知道的React组件设计模式这里都有(上)](https://mp.weixin.qq.com/s/1LJj00h7cspibXNuQ-ZggA)。 对应 [代码](https://github.com/imalextu/learn-react-patterns)。
-        - [你想知道的 React 组件设计模式这里都有(下)](https://juejin.cn/post/6844903907433381901)
-    - Hooks
-        - [精读《React Hooks》](https://zhuanlan.zhihu.com/p/49408348)
-        - [React Hooks(一): From Redux to Hooks](https://zhuanlan.zhihu.com/p/83552786)
-        - [React Hooks(二): useCallback 之痛](https://zhuanlan.zhihu.com/p/98554943)
+  - 教程 & Demos
+    - [React by Example](https://reactbyexample.github.io/): code-oriented React tutorial for programmers
+    - [官方 Demos](https://reactjs.org/community/examples.html)
+    - [React 生命周期图](https://github.com/wojtekmaj/react-lifecycle-methods-diagram)
+  - 组件
+    - [你想知道的React组件设计模式这里都有(上)](https://mp.weixin.qq.com/s/1LJj00h7cspibXNuQ-ZggA)。 对应 [代码](https://github.com/imalextu/learn-react-patterns)。
+    - [你想知道的 React 组件设计模式这里都有(下)](https://juejin.cn/post/6844903907433381901)
+  - Hooks
+      - [精读《React Hooks》](https://zhuanlan.zhihu.com/p/49408348)
+      - [React Hooks(一): From Redux to Hooks](https://zhuanlan.zhihu.com/p/83552786)
+      - [React Hooks(二): useCallback 之痛](https://zhuanlan.zhihu.com/p/98554943)
 
 ## 资源
 - [Web 年鉴](https://almanac.httparchive.org/zh-CN/2020/)
@@ -53,5 +57,9 @@
   - [Front end happy hour](http://frontendhappyhour.com/)
 - 综合
   - [Frontend Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/) Frontend Master
+- 练手项目
+  - TODO MVC
+  - Hacker News。 [各种语言实现](https://hnpwa.com/), [React 实现](https://github.com/insin/react-hn)
+  - [7GUIs](https://eugenkiss.github.io/7guis/): A GUI Programming Benchmark
 ## 其他
 - [How browsers work](http://taligarsiel.com/Projects/howbrowserswork1.htm) Behind the scenes of modern web browsers。
