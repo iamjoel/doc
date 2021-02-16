@@ -64,6 +64,14 @@ git rebase -i commitId # 要 合并 的前一次
 git push -f
 ```
 
+## 合并分支时，将多次 Commit 合并成一次
+
+```bash
+git merge --squash 分支名
+```
+
+其他分支合并策略: [图解4种git合并分支方法](https://zhuanlan.zhihu.com/p/28137908)。
+
 ## 配置别名
 
 ```bash
