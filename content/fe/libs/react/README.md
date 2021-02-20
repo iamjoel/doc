@@ -187,9 +187,12 @@ ReactDOM.createPortal(
 ```
 
 ## 项目脚手架: CPA
+[文档](https://create-react-app.dev/)
 
-```html
+```bash
 npx create-react-app 项目名
+# 创建 ts 项目
+npx create-react-app 项目名 --template typescript
 ```
 
 ## 文档
