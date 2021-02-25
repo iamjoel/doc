@@ -2,11 +2,11 @@
 	"react-component-template": {
 		"prefix": "j:react-comp",
 		"body": [
-			"import React, { Component } from 'react'",
+			"import React from 'react'",
 			"import PropTypes from 'prop-types'",
 			"import s from './style.scss'",
 			"",
-			"class $1 extends Component {",
+			"class $1 extends React.Component {",
 			"  static propTypes = {",
 			"    classNames: PropTypes.string,",
 			"  }",
@@ -34,8 +34,8 @@
 	"react-component-template-ts": {
 		"prefix": "j:react-comp-ts",
 		"body": [
-			"import React, { Component } from 'react'",
-			"import s from './index.scss'",
+			"import React from 'react'",
+			"import s from './style.scss'",
 			"",
 			"export interface I$1Props {",
 			"  ",
@@ -46,7 +46,6 @@
 			"}",
 			"",
 			"export default class I$1 extends React.Component<I$1Props, I$1State> {",
-			"",
 			"  constructor(props: I$1Props) {",
 			"    super(props)",
 			"    this.state = {",
@@ -61,6 +60,39 @@
 			"      </div>",
 			"    )",
 			"  }",
+			"}",
+			""
+		]
+	},
+	"react-component-template-ts-4": {
+		"prefix": "j:react-comp-ts-4",
+		"body": [
+			"import React from 'react'",
+			"import s from './style.scss'",
+			"",
+			"export interface I$1Props {",
+			"    ",
+			"}",
+			"",
+			"export interface I$1State {",
+			"    ",
+			"}",
+			"",
+			"export default class I$1 extends React.Component<I$1Props, I$1State> {",
+			"    constructor(props: I$1Props) {",
+			"        super(props)",
+			"        this.state = {",
+			"            ",
+			"        }",
+			"    }",
+			"",
+			"    render() {",
+			"        return (",
+			"          <div>",
+			"              ",
+			"          </div>",
+			"      )",
+			"    }",
 			"}",
 			""
 		]
