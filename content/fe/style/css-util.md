@@ -102,6 +102,43 @@ body {
 }
 ```
 
+### 十字 & 关闭(×)
+
+关闭(×)就是十字转 45 度。
+
+```scss
+.cross {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 2px;
+    border-radius: 1px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: rgb(32, 45, 64);
+  }
+
+  &::before {
+    transform: translate(-50%, -50%);
+    // 关闭按钮
+    // transform: translate(-50%, -50%) rotate(45deg);
+  }
+
+  &::after {
+    transform: translate(-50%, -50%) rotate(90deg);
+    // 关闭按钮
+    // transform: translate(-50%, -50%) rotate(-45deg);
+  }
+}
+```
+
 ## 常用设备的媒体查询
 
 见 [Media Queries for Standard Devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
