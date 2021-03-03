@@ -186,6 +186,12 @@ ReactDOM.createPortal(
 )
 ```
 
+### 停止冒泡到原生的事件
+
+```jsx
+<div onClick={e => e.nativeEvent.stopImmediatePropagation()}>...</div>
+```
+
 ## 项目脚手架: CPA
 [文档](https://create-react-app.dev/)
 
