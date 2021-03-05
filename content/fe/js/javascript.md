@@ -110,10 +110,18 @@ arr;// [1, "a", "b", "c", 4]
 ## 导出导入的值
 
 ```jsx
+// a, b 在当前文件中不可用
 export {
 	a,
-  defalut as b
-} from 某文件;
+  default as b
+} from 某文件
+
+// a, b 在当前页面中可用
+import { 
+	a,
+  default as b 
+} from 某文件
+export { a, b }
 ```
 
 **— 完 —**
