@@ -73,13 +73,14 @@ git merge --squash 分支名
 其他分支合并策略: [图解4种git合并分支方法](https://zhuanlan.zhihu.com/p/28137908)。
 
 ## 提交信息前缀
-- `feat`: (new feature for the user, not a new feature for build script)
-- `fix`: (bug fix for the user, not a fix to a build script)
-- `docs`: (changes to the documentation)
-- `style`: (formatting, missing semi colons, etc; no production code change)
-- `refactor`: (refactoring production code, eg. renaming a variable)
-- `test`: (adding missing tests, refactoring tests; no production code change)
-- `chore`: (updating grunt tasks etc; no production code change)
+- `feat`: new feature for the user, not a new feature for build script
+- `fix`: bug fix for the user, not a fix to a build script
+- `docs`: changes to the documentation
+- `style`: formatting, missing semi colons, etc; no production code change
+- `refactor`: refactoring production code, eg. renaming a variable
+- `perf`:  add code for performance test
+- `test`: adding missing tests, refactoring tests; no production code change
+- `chore`: updating grunt tasks etc; no production code change
 
 ## 配置别名
 
@@ -92,6 +93,9 @@ git config --global alias.ca 'commit -am'
 git config --global alias.caa 'commit -am "just add"'
 git config --global alias.ph push
 ```
+## PR
+
+- [我是如何在 GitHub 上提交 PR 的](https://juejin.cn/post/6844904103294795789)
 
 **— 完 —**
 
