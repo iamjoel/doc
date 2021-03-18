@@ -18,7 +18,9 @@
   * 框架 & 第三方库
     * [React](content/fe/libs/react/README.md)
       * [react window](content/fe/libs/react/react-window.md)
-    * [Vue 2](content/fe/libs/vue-2.md)
+    * Vue
+      * [Vue 2](content/fe/libs/vue/vue-2.md)
+      * [Vue 3](content/fe/libs/vue/vue-3.md)
     * [Mobx](content/fe/libs/mobx.md)
     * [Jest](content/fe/libs/jest.md)
     * [Taro](content/fe/libs/taro/README.md)

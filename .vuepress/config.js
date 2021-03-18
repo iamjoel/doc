@@ -77,7 +77,7 @@ module.exports = {
                         title: '框架 & 第三方库',
                         children: [
                             {
-                                title: 'React ',
+                                title: 'React',
                                 path: '/content/fe/libs/react/',
                                 children: [
                                     {
@@ -87,8 +87,17 @@ module.exports = {
                                 ]
                             },
                             {
-                                title: 'Vue 2 ',
-                                path: '/content/fe/libs/vue-2'
+                                title: 'Vue',
+                                children: [
+                                    {
+                                        title: 'Vue 2',
+                                        path: '/content/fe/libs/vue/vue-2'
+                                    },
+                                    {
+                                        title: 'Vue 3',
+                                        path: '/content/fe/libs/vue/vue-3'
+                                    },
+                                ]
                             },
                             {
                                 title: 'Mobx',
