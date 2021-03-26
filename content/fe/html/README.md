@@ -14,7 +14,7 @@
 <a href="mailto:someone@yoursite.com?subject=Mail from Our Site">Email Us</a>
 ```
 
-## dowoload
+## 下载文件
 
 `a`标签的 `download` 属性。指示浏览器下载 URL 而不是导航到它，因此将提示用户将其保存为本地文件。
 
