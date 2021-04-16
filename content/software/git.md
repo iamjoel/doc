@@ -93,6 +93,14 @@ git config --global alias.ca 'commit -am'
 git config --global alias.caa 'commit -am "just add"'
 git config --global alias.ph push
 ```
+
+## SSH Key 位置
+
+mac: 
+
+```bash
+open ~/.ssh
+```
 ## PR
 
 - [我是如何在 GitHub 上提交 PR 的](https://juejin.cn/post/6844904103294795789)
