@@ -216,6 +216,10 @@ module.exports = {
                         path: '/content/do/tools/'
                     },
                     {
+                        title: '精进问题',
+                        path: '/content/do/tools/content/up-question'
+                    },
+                    {
                         title: '写作检查列表',
                         path: '/content/do/write'
                     }
