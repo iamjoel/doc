@@ -71,6 +71,11 @@ new RegExp(pattern, modifiers) // pattern 中可以带变量
 | (?=exp)      | 匹配exp前面的位置 |
 | (?<=exp)     | 匹配exp后面的位置 |
 
+### 工具
+
+- [RegExr](https://regexr.com/): 正则测试工具。
+- [Regulex](https://jex.im/regulex/#!flags=&re=%5E(a%7Cb)*%3F%24): 正则可视化工具。
+
 ## 数组
 
 ### 头 & 尾 删除 & 插入
