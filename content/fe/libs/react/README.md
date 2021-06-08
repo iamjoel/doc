@@ -193,10 +193,18 @@ ReactDOM.createPortal(
 )
 ```
 
+## 事件
 ### 停止冒泡到原生的事件
-
 ```jsx
 <div onClick={e => e.nativeEvent.stopImmediatePropagation()}>...</div>
+```
+
+### 以捕获的方式绑定事件
+
+`事件名Capture`。如
+
+```html
+<div onClickCapture={...} />
 ```
 
 ## 项目脚手架: CPA
