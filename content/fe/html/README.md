@@ -31,6 +31,11 @@
 <input type="text" autocomplete="off"/>
 ```
 
+## 关闭自动填充密码
+```html
+<!-- https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/Input/password -->
+<input type="password" autocomplete="current-password">
+```
 ## 让元素可编辑的属性
 
 加 `contentEditable` 属性。编辑内容，默认是支持粘贴富文本的。只支持纯文本: `contenteditable="plaintext-only"`。
