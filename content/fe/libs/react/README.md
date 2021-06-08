@@ -1,3 +1,10 @@
+# React
+## 快速创建项目
+
+```jsx
+npx create-react-app 项目名称
+npx create-react-app 项目名称 --template typescript
+```
 ## Class 组件
 
 ```jsx
