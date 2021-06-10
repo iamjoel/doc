@@ -134,7 +134,7 @@ function withName (Component) {
 const WithNameComp = withName(Comp)
 ```
 
-### renderProps
+### RenderProps
 
 ```jsx
 // 定义
@@ -167,6 +167,7 @@ render() {
 ```
 
 ## Context API
+类组件
 
 ```jsx
 const ctx = React.createContext()
@@ -182,6 +183,22 @@ const { Provider, Consumer } = ctx
     )}
   </Consumer>
 </Provider>
+```
+
+函数组件
+
+```html
+const ctx = React.createContext()
+const { Provider, Consumer } = ctx
+
+<Provider value={{name: 'joel'}}>
+  <Child />
+</Provider>
+
+function Child() {
+  const nameCtx = useContext(ctx)
+  return <div>{nameCtx.name}</div>
+}
 ```
 
 ## Portals

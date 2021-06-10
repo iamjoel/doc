@@ -34,17 +34,14 @@ git stash pop # 恢复
 ```
 
 ## **用 rebase 的方式合并分支**
-
-以 将 **`next` 合并到 `build/test` 为例。**
+以 master 为基，把 `master` **合并到 `feature/a` 为例。和 merge 的命令类似:**
 
 ```bash
-git checkout build/test
+git checkout master
 git pl
-git checkout next
-git rebase build/test
-git checkout build/test
-git merge next
-git ph
+git checkout **feature/a**
+git pl
+git rebase master
 ```
 
 ## 将多次 Commit 合并成一次

@@ -83,6 +83,10 @@ module.exports = {
                                     {
                                         title: 'react window',
                                         path: '/content/fe/libs/react/react-window'
+                                    },
+                                    {
+                                        title: 'Ant Design',
+                                        path: '/content/fe/libs/react/ant-design'
                                     }
                                 ]
                             },
