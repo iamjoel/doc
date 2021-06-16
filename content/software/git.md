@@ -106,6 +106,9 @@ open ~/.ssh
 
 - [我是如何在 GitHub 上提交 PR 的](https://juejin.cn/post/6844904103294795789)
 
+## 文档
+* [Git Community Book 中文版](http://gitbook.liuhui998.com/index.html)
+
 **— 完 —**
 
 整理By [Joel](https://github.com/iamjoel)。微信号搜索: joel007。
