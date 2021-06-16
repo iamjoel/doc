@@ -42,13 +42,17 @@ git pl
 git checkout **feature/a**
 git pl
 git rebase master
+git push --force-with-lease
+# 自己开发的分支，可以这么做。rebase 改了提交顺序。本地分支和远程分支不一样了。
+# 否则，git pull 来合并吧。
 ```
 
 ## 将多次 Commit 合并成一次
 
 ```bash
 # 1 rebase
-git rebase -i commitId # 要 合并 的前一次
+git rebase -i commitId # 要 合并 的前一次。
+# git rebase -i HEAD~3 # 最后个数字是合并几次。
 
 # 2 编辑内容
 # 2.1 将第一个 commitId 前的 pick 改成 r
@@ -58,7 +62,7 @@ git rebase -i commitId # 要 合并 的前一次
 # 2 结束后，会出现编辑器来改提交信息。
 
 ## 4 强推
-git push -f
+git push --force-with-lease # rebase 改了提交顺序。本地分支和远程分支不一样了。
 ```
 
 ## 合并分支时，将多次 Commit 合并成一次
