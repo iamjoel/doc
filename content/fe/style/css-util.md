@@ -163,6 +163,53 @@ body {
 }
 ```
 
+## 动画
+
+呼吸灯效果
+
+```css
+.breathing-anim {
+  animation: breathing 1s ease-out infinite normal;
+}
+
+@keyframes breathing {
+  0% {
+      opacity: .5;
+  }
+
+  25% {
+      opacity: .5;
+  }
+
+  60% {
+      opacity: 1;
+  }
+
+  to {
+      opacity: .5;
+  }
+}
+```
+
+无限转圈
+
+```css
+.running-anim {
+  transform-origin: 9px 9px;
+  animation: rotate-self 1s linear infinite;
+}
+
+@keyframes rotate-self {
+  0% {
+      transform: rotate(0) ;
+  }
+
+  to {
+      transform: rotate(1turn);
+  }
+}
+```
+
 ## 文档
 
 - [CSS Snippets](https://css-tricks.com/snippets/css/)
