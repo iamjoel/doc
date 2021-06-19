@@ -49,3 +49,5 @@
 * 做事
   * [工具箱](content/do/tools/README.md)
   * [写作检查列表](content/do/write.md)
+
+Powered By [VuePress](https://vuepress.vuejs.org/zh/)。
