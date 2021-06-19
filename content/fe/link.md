@@ -22,10 +22,15 @@
 
 - [Redux](https://redux.js.org/)
 - [Mobx](https://cn.mobx.js.org/)
+- [DvaJS](https://dvajs.com/)
 
 ### 路由
 
 - [React Router](https://reactrouter.com/web/guides/quick-start)
+
+### 组件库
+
+- [Ant Design](https://ant.design/index-cn)
 
 ### 数据管理
 
@@ -38,6 +43,10 @@
 ### 小程序
 
 - [Taro](https://nervjs.github.io/taro/docs/README)
+
+### 其他
+
+- [UmiJS](https://umijs.org/zh-CN)
 
 ## Vue
 
