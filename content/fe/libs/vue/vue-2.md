@@ -1,4 +1,10 @@
 # Vue 2
+## 脚手架
+
+```bash
+yarn global add @vue/cli # 安装
+vue create 项目名称 # 创建项目
+```
 
 ## 生命周期函数
 
