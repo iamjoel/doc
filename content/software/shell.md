@@ -17,3 +17,18 @@ ps|grep 'yarn start'
 ```bash
 kill 进程id
 ```
+## 使用 nvm
+
+```bash
+export NVM_DIR=$HOME/.nvm
+source $NVM_DIR/nvm.sh
+
+nvm use v14
+node -v
+cd '...'
+yarn start
+```
+
+## 推荐阅读
+
+- [掌握Shell编程，一篇就够了](https://www.notion.so/Shell-c966594fd3884a6887b88afc860f2400)
