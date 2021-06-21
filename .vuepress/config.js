@@ -165,8 +165,16 @@ module.exports = {
                         path: '/content/software/git'
                     },
                     {
+                        title: 'Chrome',
+                        path: '/content/software/chrome/'
+                    },
+                    {
                         title: 'Mac',
                         path: '/content/software/mac'
+                    },
+                    {
+                        title: 'Shell',
+                        path: '/content/software/shell'
                     },
                     {
                         title: 'whistle - 跨平台 Web 调试代理工具',
