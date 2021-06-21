@@ -239,7 +239,7 @@ useEffect(async () => {
 	const data = await fetchSth()
 	isUnMount && setData(data)
 	return () => {
-    setIsUnMount(true)
+		setIsUnMount(true)
 	}
 }, [])
 ```
