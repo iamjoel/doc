@@ -224,6 +224,35 @@ ReactDOM.createPortal(
 <div onClickCapture={...} />
 ```
 
+## 问题
+
+### Can’t perform a react state update on an unmounted component
+
+异步代码回调里改变状态，如果组件已经被卸载，会报这个错。
+
+解决方案：设置状态前，判断组件是否已被卸载。
+
+```jsx
+const [isUnMount, setIsUnMount] = useState(false)
+
+useEffect(async () => {
+	const data = await fetchSth()
+	isUnMount && setData(data)
+	return () => {
+    setIsUnMount(false)
+	}
+}, [])
+```
+
+用 [ahooks](https://ahooks.js.org/hooks/life-cycle/use-unmounted-ref) 的 API
+
+```jsx
+import { useUnmountedRef } from 'ahooks'
+
+const unmountRef: { current: boolean } = useUnmountedRef()
+unmountRef.current && setData(data)
+```
+
 ## 项目脚手架: CPA
 [文档](https://create-react-app.dev/)
 
