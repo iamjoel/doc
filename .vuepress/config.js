@@ -231,6 +231,10 @@ module.exports = {
                         title: '工具',
                         path: '/content/write/tools'
                     },
+                    {
+                        title: '配色',
+                        path: '/content/write/palette/'
+                    },
                 ]
             },
             {

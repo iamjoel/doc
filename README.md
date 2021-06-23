@@ -48,6 +48,7 @@
   * [Markdown](content/software/markdown/0-snippet.md)
 * 写作
   * [工具](content/write/tools.md)
+  * [配色](content/write/palette/README.md)
 * 做事
   * [工具箱](content/do/tools/README.md)
   * [写作检查列表](content/do/write.md)
