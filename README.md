@@ -46,6 +46,8 @@
   * [React](content/fe/libs/react/0-snippet.md)
   * [Taro](content/fe/libs/taro/0-snippet.md)
   * [Markdown](content/software/markdown/0-snippet.md)
+* 写作
+  * [工具](content/write/tools.md)
 * 做事
   * [工具箱](content/do/tools/README.md)
   * [写作检查列表](content/do/write.md)

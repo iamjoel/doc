@@ -225,6 +225,15 @@ module.exports = {
                 ]
             },
             {
+                title: '写作',
+                children: [
+                    {
+                        title: '工具',
+                        path: '/content/write/tools'
+                    },
+                ]
+            },
+            {
                 title: '做事',
                 children: [
                     {
