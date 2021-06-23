@@ -25,6 +25,7 @@
     * [Jest](content/fe/libs/jest.md)
     * [Taro](content/fe/libs/taro/README.md)
   * 工具
+    * [ESLint & TSLint](content/fe/tool/eslint.md)
     * [包管理工具](content/fe/tool/package-manage.md)
 * 后端
   * [常用网站](content/backend/link.md) & [收藏](content/backend/bookmark.md)

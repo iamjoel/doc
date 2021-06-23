@@ -121,6 +121,10 @@ module.exports = {
                         title: '工具',
                         children: [
                             {
+                                title: 'ESLint & TSLint',
+                                path: '/content/fe/tool/eslint'
+                            },
+                            {
                                 title: '包管理工具',
                                 path: '/content/fe/tool/package-manage'
                             }
