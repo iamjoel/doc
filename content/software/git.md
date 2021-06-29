@@ -93,6 +93,9 @@ git config --global alias.ci commit
 git config --global alias.ca 'commit -am'
 git config --global alias.caa 'commit -am "just add"'
 git config --global alias.ph push
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.re rebase
 ```
 
 ## SSH Key 位置

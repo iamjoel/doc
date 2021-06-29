@@ -34,6 +34,7 @@
   word-break: break-all;
 }
 ```
+父元素如果有设置 white-space: nowrap ，子元素要换行，必须要设置： white-space: normal。
 
 ## 用阴影来突出区块
 
