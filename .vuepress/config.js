@@ -81,6 +81,10 @@ module.exports = {
                                 path: '/content/fe/libs/react/',
                                 children: [
                                     {
+                                        title: 'ahooks',
+                                        path: '/content/fe/libs/react/ahooks'
+                                    },
+                                    {
                                         title: 'react window',
                                         path: '/content/fe/libs/react/react-window'
                                     },
