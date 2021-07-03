@@ -98,6 +98,24 @@ git config --global alias.br branch
 git config --global alias.re rebase
 ```
 
+## 所有配置
+
+```jsx
+git config --list
+```
+
+## 改了 Git 密码后的处理
+
+Mac 会默认会从密钥链里拿。git config 里会有一句
+
+```bash
+credential.helper=osxkeychain
+```
+
+密码改后， 要删除旧的凭证：Keychain access > 搜索 [github.com](http://github.com/)(或其他代码托管网站) > "互联网密码“> 删除。再做一次，会要求输用户名和密码，更新到新的凭证。
+
+具体见 [这里](https://docs.github.com/cn/github/getting-started-with-github/getting-started-with-git/updating-credentials-from-the-macos-keychain)。
+
 ## SSH Key 位置
 
 mac: 
