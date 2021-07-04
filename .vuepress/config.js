@@ -112,6 +112,10 @@ module.exports = {
                                 path: '/content/fe/libs/lodash'
                             },
                             {
+                                title: 'Moment',
+                                path: '/content/fe/libs/moment'
+                            },
+                            {
                                 title: 'Mobx',
                                 path: '/content/fe/libs/mobx'
                             },

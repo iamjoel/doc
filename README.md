@@ -24,6 +24,7 @@
       * [Vue 2](content/fe/libs/vue/vue-2.md)
       * [Vue 3](content/fe/libs/vue/vue-3.md)
     * [Lodash](content/fe/libs/lodash.md)
+    * [Moment](content/fe/libs/moment.md)
     * [Mobx](content/fe/libs/mobx.md)
     * [Jest](content/fe/libs/jest.md)
     * [Taro](content/fe/libs/taro/README.md)
