@@ -1,6 +1,22 @@
 # ahooks
 [官方文档](https://ahooks.js.org/)。
 
+## 布尔值的优雅操作
+
+用来控制模态框的显示，隐藏很优雅。
+
+```jsx
+import { useBoolean } from 'ahooks';
+const [
+	modalVisible, 
+	{setFalse: hideModal, setTrue: showModal, toggle: toggleModal}
+] = useBoolean(false);
+
+<button onClick={showModal}>显示</button>
+<Modal visible={modalVisible} onClose={hideModal} />
+<button onClick={toggleModal}>Toggle</button>
+```
+
 ## useUnmount & useUnmountedRef & useSafeState
 
 常用来防止组件 unmount 后，仍然去改 state，导致内存泄露。
