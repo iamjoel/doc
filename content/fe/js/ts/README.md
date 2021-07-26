@@ -56,6 +56,7 @@ React.SyntheticEvent<EventTarget> // 事件
 React.ChangeEvent<HTMLInputElement> // change事件
 React.KeyboardEvent<HTMLInputElement> // 键盘事件
 React.MouseEvent<HTMLElement> // 鼠标事件
+React.UIEvent<HTMLElement> // 滚动事件
 ```
 
 [React TypeScript Cheatsheets](https://react-typescript-cheatsheet.netlify.app/)
