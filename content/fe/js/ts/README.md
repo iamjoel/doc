@@ -61,6 +61,12 @@ React.UIEvent<HTMLElement> // 滚动事件
 
 [React TypeScript Cheatsheets](https://react-typescript-cheatsheet.netlify.app/)
 
+## 第三方库 相关类型
+
+```ts
+moment.Moment
+```
+
 ## 枚举
 ```ts
 enum week {
