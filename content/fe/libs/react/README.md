@@ -166,6 +166,20 @@ render() {
 }
 ```
 
+### Refs 转发(forwardRef)
+
+```jsx
+const Comp = React.forwardRef<HTMLDivElement>((props, ref) => {
+	return (<div ref={ref}></div>);
+}
+
+const Par = () => {
+  const compRef = useRef<HTMLDivElement>(null);
+  const getCompWidth = () => compRef.current?.clientWidth || 0
+	return (<Comp ref={compRef}/>)
+}
+```
+
 ## Context API
 类组件
 
