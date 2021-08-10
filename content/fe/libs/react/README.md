@@ -267,6 +267,22 @@ const unmountRef: { current: boolean } = useUnmountedRef()
 unmountRef.current && setData(data)
 ```
 
+### 提前返回，导致 UseCallback 报错
+
+```jsx
+if(!info) return;
+const doSth = useCallback(...)
+return ...
+```
+
+改成
+
+```jsx
+const doSth = useCallback(...)
+if(!info) return;
+return ...
+```
+
 ## 项目脚手架: CPA
 [文档](https://create-react-app.dev/)
 
