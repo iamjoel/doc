@@ -165,9 +165,7 @@ body {
 ```
 
 ## 动画
-
-呼吸灯效果
-
+### 呼吸灯效果
 ```css
 .breathing-anim {
   animation: breathing 1s ease-out infinite normal;
@@ -192,8 +190,7 @@ body {
 }
 ```
 
-无限转圈
-
+### 无限转圈
 ```css
 .running-anim {
   transform-origin: 9px 9px;
@@ -208,6 +205,13 @@ body {
   to {
       transform: rotate(1turn);
   }
+}
+```
+
+### 平滑滚动
+```css
+.smooth-scroll {
+  scroll-behavior: smooth;
 }
 ```
 
