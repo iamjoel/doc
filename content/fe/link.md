@@ -105,3 +105,9 @@
 ### 工具类
 
 - [CSS utils](https://github.com/iamjoel/css-utils)
+
+
+## 英语
+### 听力
+* [英国文化协会的多媒体英文听力学习网站](https://learnenglish.britishcouncil.org/skills/listening)
+* [VOA 美国之声](https://learningenglish.voanews.com/)
