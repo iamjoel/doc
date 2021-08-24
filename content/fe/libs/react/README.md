@@ -237,13 +237,25 @@ ReactDOM.createPortal(
 ```html
 <div onClickCapture={...} />
 ```
+### debounce 函数包裹事件函数的报错
+报错：Uncaught TypeError: Cannot read property 'value' of null  
+原因：debounce包装后的回调函数，是个异步事件，即e.target为null了  
+解决方案：使用e.persist()实现对事件的引用保留
+
+```jsx
+import { debounce } from 'lodash'
+
+const didHandle = debounce(value => ...)
+
+const handleKeywordChange = useCallback(event => {
+  event.persist();
+  didHandle(event.target.value)
+})
+```
 
 ## 问题
-
 ### Can’t perform a react state update on an unmounted component
-
-异步代码回调里改变状态，如果组件已经被卸载，会报这个错。
-
+原因：异步代码回调里改变状态，如果组件已经被卸载，会报这个错。  
 解决方案：设置状态前，判断组件是否已被卸载。
 
 ```jsx
@@ -268,7 +280,6 @@ unmountRef.current && setData(data)
 ```
 
 ### 提前返回，导致 UseCallback 报错
-
 ```jsx
 if(!info) return;
 const doSth = useCallback(...)
