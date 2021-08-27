@@ -41,6 +41,9 @@ GIF 素材库。也有一些 GIF 工具。
 
 在线画图工具。支持流程图、思维导图、原型图、UML、BPMN、网络拓扑图等多种图形绘制等。
 
+### [LZ 雷达图](http://www.lizibuluo.com/leida/index.php)
+通过配置生成雷达图。
+
 ## 改图片
 
 ### [Fotor 懒设计](https://www.fotor.com.cn/)
