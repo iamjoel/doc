@@ -120,6 +120,24 @@ const renderList = useCallback(() => {
 }, [])
 ```
 
+### 动态列表子项的 DOM 的 Ref 数组
+
+```jsx
+const itemList = useRef<HTMLDivElement[]>([]);
+const setItemsRef = (dom: HTMLDivElement) => {
+  itemRefList.current.push(dom);
+};
+return (
+  <div>
+    {list.map(item => {
+      return (
+        <div ref={setItemsRef} key={item.id}>...</div>
+      )
+    })}
+  </div>
+)
+```
+
 ## 组件代码复用
 
 ### HOC - 高阶组件
