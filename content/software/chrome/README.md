@@ -15,3 +15,10 @@
 2. 呼出截图命令: ⌘Command + ⇧Shift + P（Windows 为 Ctrl + Shift + P），输入 screen。
 
 ![](./capture.png)
+
+## Chrome 94 后导致加载 http 资源报跨域的错误
+
+解决方案：
+
+1. chrome://flags
+2. 搜索 Block insecure private network requests, 然后 disabled
