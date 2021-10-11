@@ -50,3 +50,11 @@ npm uninstall -g 包名
 ```bash
 npm list -g --depth=0
 ```
+
+## 设置项目中 npm 的镜像
+在 `.npmrc` 文件里设置，如：
+
+```bash
+registry=https://registry.npm.taobao.org/
+xx包:registry=地址
+```
