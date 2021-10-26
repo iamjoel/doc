@@ -18,6 +18,12 @@ npm link 第三方模块的包名
 
 更多:  [`npm link`](https://javascript.ruanyifeng.com/nodejs/npm.html#toc18)。
 
+## Yarn 安装 dev 依赖
+
+```bash
+yarn add 包名 --dev
+```
+
 ## 全局包操作
 
 ### 安装
