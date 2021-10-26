@@ -178,11 +178,16 @@ location.href = url
 
 ### 键盘事件的常见键值(Key Value)
 
-`event.key`的值。
+`event.code`的值。
 
 - 回车: `Enter`
 - esc: `Escape`
 - 上下左右: `ArrowDown`,  `ArrowUp`, `ArrowLeft`,  `ArrowRight`
+- f: `KeyF` 。shift + f: `KeyF`
+
+`event.key`
+
+- f: `f`。shift + f: `F`
 
 ### 添加事件
 
