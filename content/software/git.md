@@ -23,7 +23,7 @@ git branch -D branchName
 
 ```bash
 git reset --hard commitId
-git ph
+git ph -f
 ```
 
 ## 暂存和恢复

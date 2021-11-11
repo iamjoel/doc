@@ -61,6 +61,16 @@ React.UIEvent<HTMLElement> // 滚动事件
 
 [React TypeScript Cheatsheets](https://react-typescript-cheatsheet.netlify.app/)
 
+## 给 js 加类型
+文件名: `xxx.d.ts`。例如:
+```js
+import React from 'react';
+
+declare class X extends React.Component<any> {}
+
+export default X;
+```
+
 ## 第三方库 相关类型
 
 ```ts
