@@ -66,6 +66,26 @@
     ""
   ]
 },
+"react-function-component-template-ts": {
+  "prefix": "j:react-fn-comp-ts",
+  "body": [
+    "import React, { FC } from 'react'",
+    "import s from './style.scss'",
+    "export interface I$1Props {",
+    "  ",
+    "}",
+    "const $1: FC<I$1Props> = ({",
+
+    "}) => {",
+    "  return (",
+    "     <div>",
+    "     </div>",
+    "  )",
+    "}",
+    "export default React.memo($1)",
+    ""
+  ]
+},
 ```
 
 ## 工具方法
