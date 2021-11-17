@@ -131,6 +131,17 @@ import {
   default as b 
 } from 某文件
 export { a, b }
+let c = 3
+export {c}
+```
+
+## Webpack 异步加载模块
+
+```tsx
+require.ensure([], function () {
+  let A = require('./A.js')
+  alert(A)
+}, 'chunk Name。可选')
 ```
 
 **— 完 —**
