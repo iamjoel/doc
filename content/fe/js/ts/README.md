@@ -148,12 +148,21 @@ Omit<{
 /* tslint:disable */ // 这行代码以下的不 Lint
 /* tslint:enable */ // 这行代码以下的 Lint
 ```
-### 传入不被用到的函数参数
+## 传入不被用到的函数参数
 
 ```js
 doSth(_:any, 'aaa') // _:any。 传 undefined, void 等都不行。
 ```
 
+## .d.ts
+
+引入`index.js`，lint 报 ts 错误。解决方案：创建个 `index.d.ts`，类似:
+
+```tsx
+import React from 'react';
+declare class XXX extends React.Component<any> {}
+export default XXX;
+```
 **— 完 —**
 
 整理By[Joel](https://github.com/iamjoel)。微信号搜索: joel007。
