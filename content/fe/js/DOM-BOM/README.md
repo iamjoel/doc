@@ -244,6 +244,35 @@ elem.addEventListener('build', handler, false);// 绑定事件
 elem.dispatchEvent(event, data)// 触发事件
 ```
 
+### 拖放上传文件
+
+```tsx
+const tarDOM = document.querySelector('#tar')
+tarDOM.addEventListener('dragenter', (event) => {
+	const fileTypes = event.dataTransfer.types
+	// 在 window 下的，拖动链接是的types 为 ['text/plain', 'text/uri-list', 'text/html', 'Files']。 在 Mac 下的 没有问题，为：['text/plain', 'text/uri-list', 'text/html']
+  if (fileTypes.includes('Files') || fileTypes.includes('text/uri-list') > 0) {
+		return
+	}
+}, false)
+
+tarDOM.addEventListener("dragover", function(event) {
+  // 阻止默认动作以启用drop
+  event.preventDefault();
+}, false)
+
+tarDOM.addEventListener('drop', (e) => {
+  // 阻止默认动作（如打开一些元素的链接）
+  e.preventDefault()
+	const fileTypes = event.dataTransfer.types
+  if (fileTypes.includes('Files') || fileTypes.includes('text/uri-list') > 0) {
+		return
+	}
+  // 上传的文件
+	const files = e.dataTransfer.files
+}, false)
+```
+
 ## [Fetch API](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API/Using_Fetch)
 
 ```js
