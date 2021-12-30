@@ -217,20 +217,41 @@ const { Provider, Consumer } = ctx
 </Provider>
 ```
 
-函数组件
+同时支持类组件和函数组件
 
-```html
+```jsx
 const ctx = React.createContext()
 const { Provider, Consumer } = ctx
 
-<Provider value={{name: 'joel'}}>
-  <Child />
-</Provider>
+// 父组件
+export const XxProvider = ({chileren, ...value}) => {
+  return (
+		<Provider value={{name: 'joel', ...value}}>
+		  {children}
+		</Provider>
+  )
+}
 
-function Child() {
+// 给类组件用
+export function XxConnect(Wrapper: any) {
+	return function WrappedComponent(props: any) {
+        return (
+            <Consumer>{value => <Wrapper {...props} {...value} />}</Consumer>
+        );
+    };
+}
+
+// 函数组件使用
+function FnChild() {
   const nameCtx = useContext(ctx)
   return <div>{nameCtx.name}</div>
 }
+
+// 类组件使用
+class ClassChild extends Component<IProps, IState> {
+
+}
+XxConnect(FnChild)
 ```
 
 ## Portals
