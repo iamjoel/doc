@@ -109,13 +109,27 @@ $isCool: true;
 ```
 
 ## 循环
-
+### 遍历对象
 ```scss
 $map: ('a': #f00, 'b': #0f0, 'c': #00f);
 @each $key, $value in $map {
   .section-#{$key} {
     background-color: $value;
   }
+}
+```
+
+### 循环固定次数
+```scss
+@for $i from 1 through 20 {
+    .list-col#{$i} {
+        .card {
+            width: calc(100% / #{$i} - 16px * (#{$i} - 1));
+            &:nth-child(#{$i}n) {
+                margin-right: 0;
+            }
+        }
+    }
 }
 ```
 
