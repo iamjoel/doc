@@ -328,6 +328,7 @@ const isSupportsPlaintextEdit = () => {
 
 - [how to manage HTML DOM with vanilla JavaScript only?](https://htmldom.dev/)
 - [You might not need jQuery](http://youmightnotneedjquery.com/)
+- [Node与Element，Children与Childnodes的区别](https://zhuanlan.zhihu.com/p/38813601)
 
 **— 完 —**
 
