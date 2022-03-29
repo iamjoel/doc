@@ -65,7 +65,7 @@ Promise.allSettled([
 await Promise.race([asyncFn1(), asyncFn2(), asyncFn3()])
 ```
 
-使用场景：给异步处理时间设上限。如
+使用场景：给异步加超时时间。如:
 
 ```jsx
 await Promise.race([

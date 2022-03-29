@@ -35,16 +35,21 @@ module.exports = {
                                 path: '/content/fe/style/sass'
                             },
                             {
-                                title: 'CSS Modules',
-                                path: '/content/fe/style/css-modules'
-                            },
-                            {
-                                title: 'Scoped CSS',
-                                path: '/content/fe/style/scoped-css'
-                            },
-                            {
-                                title: 'CSS in JS',
-                                path: '/content/fe/style/css-in-js'
+                                title: '防止样式污染',
+                                children: [
+                                    {
+                                        title: 'CSS Modules',
+                                        path: '/content/fe/style/css-modules'
+                                    },
+                                    {
+                                        title: 'Scoped CSS',
+                                        path: '/content/fe/style/scoped-css'
+                                    },
+                                    {
+                                        title: 'CSS in JS',
+                                        path: '/content/fe/style/css-in-js'
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -64,7 +69,7 @@ module.exports = {
                                 path: '/content/fe/js/DOM-BOM/'
                             },
                             {
-                                title: '异步',
+                                title: '异步处理',
                                 path: '/content/fe/js/async'
                             },
                             {
