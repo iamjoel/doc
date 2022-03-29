@@ -5,8 +5,8 @@
 ```js
 describe('fn', () => {
   test('should xxx if xxx', async () => {
-	   expect(fn(...)).toBe(value) // 浅比较
-		 expect(fn(...)).toEqual(obj) // 深比较。比较对象，数组内容时。
+     expect(fn(...)).toBe(value) // 浅比较
+     expect(fn(...)).toEqual(obj) // 深比较。比较对象，数组内容时。
   })
 })
 ```

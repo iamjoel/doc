@@ -46,7 +46,8 @@ CSSStyleDeclaration
 ```ts
 JSX.Element // 元素
 React.ComponentType // 组件类型 
-React.RefObject<HTMLDivElement> // ref
+React.RefObject<HTMLDivElement> // class组件 ref
+useRef<HTMLElement>(null) // 函数组件 ref
 
 // 样式
 React.CSSProperties
@@ -104,7 +105,7 @@ interface Label {
 }
 
 interface NeedPayLabel extends Label {
-	price: number
+  price: number
 }
 ```
 
@@ -128,9 +129,9 @@ type Tree<T> = {
 
 ```ts
 Omit<{
-	name: string,
-	age: number, 
-	des: string
+  name: string,
+  age: number, 
+  des: string
 }, 'name' | 'age'> // -> { des: string }
 ```
 

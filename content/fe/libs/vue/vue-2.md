@@ -19,16 +19,16 @@ destroyed: function(){}
 
 ```html
 <template>
-	<!-- 子组件传递值给父组件 -->
-	<slot a="1" b="msg"></slot>
-	<slot name="foot"></slot>
+  <!-- 子组件传递值给父组件 -->
+  <slot a="1" b="msg"></slot>
+  <slot name="foot"></slot>
 </template>
 ```
 
 ```html
 <Comp scope="data">
-	<div>{{data}}: {a: 1, b: 'msg'}</div> 
-	<template #foot><div>foot content</div></template>
+  <div>{{data}}: {a: 1, b: 'msg'}</div> 
+  <template #foot><div>foot content</div></template>
 </Comp>
 ```
 

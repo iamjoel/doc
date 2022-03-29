@@ -7,7 +7,7 @@
 this.listRef = React.createRef()
 
 <VariableSizeList
-	ref={this.listRef}
+  ref={this.listRef}
 >...</VariableSizeList
 
 // item 高度变化时

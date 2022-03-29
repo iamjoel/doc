@@ -32,30 +32,30 @@ const ParentComp = () => (<div>xxx</div>)
 const Comp = () => (<div>xxx</div>)
 
 const Title = styled.div`
-	color: #f00;
-	background: #fff;
-	&:hover {background: #eee;}
+  color: #f00;
+  background: #fff;
+  &:hover {background: #eee;}
 `
 
 const Input = styled.input(props => {
-	retrun {
-		display: props.isShow ? '' : 'none'
-	}
+  retrun {
+    display: props.isShow ? '' : 'none'
+  }
 })
 const StyledParentComp = styled(ParentComp)`
-	&:hover ${Comp} {
-		color: #f00;
-	}
+  &:hover ${Comp} {
+    color: #f00;
+  }
 `
 
 const StyledComp = styled(Comp)`
-	color: #f00;
+  color: #f00;
 `
 
 render(
-	<>
-		<Title>xxxx</Title>
-	</>
+  <>
+    <Title>xxxx</Title>
+  </>
 )
 ```
 

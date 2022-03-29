@@ -15,7 +15,7 @@
 $primary-color: #333;
 body {
   color: $primary-color;
-	font-size: $font-size; // 会去 var.scss 中找
+  font-size: $font-size; // 会去 var.scss 中找
 }
 ```
 

@@ -188,13 +188,13 @@ render() {
 
 ```jsx
 const Comp = React.forwardRef<HTMLDivElement>((props, ref) => {
-	return (<div ref={ref}></div>);
+  return (<div ref={ref}></div>);
 }
 
 const Par = () => {
   const compRef = useRef<HTMLDivElement>(null);
   const getCompWidth = () => compRef.current?.clientWidth || 0
-	return (<Comp ref={compRef}/>)
+  return (<Comp ref={compRef}/>)
 }
 ```
 
@@ -226,15 +226,15 @@ const { Provider, Consumer } = ctx
 // 父组件
 export const XxProvider = ({chileren, ...value}) => {
   return (
-		<Provider value={{name: 'joel', ...value}}>
-		  {children}
-		</Provider>
+    <Provider value={{name: 'joel', ...value}}>
+      {children}
+    </Provider>
   )
 }
 
 // 给类组件用
 export function XxConnect(Wrapper: any) {
-	return function WrappedComponent(props: any) {
+  return function WrappedComponent(props: any) {
         return (
             <Consumer>{value => <Wrapper {...props} {...value} />}</Consumer>
         );
@@ -301,11 +301,11 @@ const handleKeywordChange = useCallback(event => {
 const [isUnMount, setIsUnMount] = useState(false)
 
 useEffect(async () => {
-	const data = await fetchSth()
-	isUnMount && setData(data)
-	return () => {
-		setIsUnMount(true)
-	}
+  const data = await fetchSth()
+  isUnMount && setData(data)
+  return () => {
+    setIsUnMount(true)
+  }
 }, [])
 ```
 

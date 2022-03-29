@@ -4,16 +4,16 @@
 
 ```css
 :global(选择器) {
-	 color: red;
+   color: red;
 }
 /* 或 */
 :global {
-	选择器1 {}
+  选择器1 {}
   选择器2 {}
 }
 
 @keyframes :global(xxx) {
-	 width: 100px;
+   width: 100px;
 }
 ```
 

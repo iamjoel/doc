@@ -5,7 +5,7 @@ import {ref, watch, computed, reactive, toRefs} from 'vue'
 export default function useCount(initValue = 1, onChange) {
   const count = ref(initValue)
   const user = reactive({name: 'Joel'})
-	// user.name = 'Jack' // 修改 value。
+  // user.name = 'Jack' // 修改 value。
 
   const setCount = (value) => {
     count.value = value
@@ -22,7 +22,7 @@ export default function useCount(initValue = 1, onChange) {
     count,
     increase,
     decrease,
-	  ...toRefs(user), // 保持属性的响应
+    ...toRefs(user), // 保持属性的响应
   }
 }
 ```

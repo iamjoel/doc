@@ -8,8 +8,8 @@
 ```jsx
 import { useBoolean } from 'ahooks';
 const [
-	modalVisible, 
-	{setFalse: hideModal, setTrue: showModal, toggle: toggleModal}
+  modalVisible, 
+  {setFalse: hideModal, setTrue: showModal, toggle: toggleModal}
 ] = useBoolean(false);
 
 <button onClick={showModal}>显示</button>

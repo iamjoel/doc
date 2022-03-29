@@ -125,13 +125,13 @@ arr;// [1, "a", "b", "c", 4]
 ```jsx
 // a, b 在当前文件中不可用
 export {
-	a,
+  a,
   default as b
 } from 某文件
 
 // a, b 在当前页面中可用
 import { 
-	a,
+  a,
   default as b 
 } from 某文件
 export { a, b }
