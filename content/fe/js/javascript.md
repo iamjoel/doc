@@ -1,4 +1,4 @@
-# JavaScript
+# JavaScript 常用方法
 
 ## 数字
 
@@ -15,8 +15,12 @@
 
 ```jsx
 Math.ceil(4.3) // 5。向上取整
+Math.ceil(-4.3) // -4。向上取整
 Math.floor(3.5) // 3。向下取整
+Math.floor(-3.5) // -4。向下取整
 Math.round(3.5) //4。 四舍五入。
+parseInt(3.5) // 3。去小数部分。
+parseInt(-3.5) // -3。去小数部分。
 ```
 
 ## 字符串
