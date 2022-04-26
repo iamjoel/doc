@@ -73,6 +73,12 @@ git merge --squash 分支名
 
 其他分支合并策略: [图解4种git合并分支方法](https://zhuanlan.zhihu.com/p/28137908)。
 
+## 合并其他分支的某次提交
+
+```bash
+git cherry-pick commitID
+```
+
 ## 提交信息前缀
 - `feat`: new feature for the user, not a new feature for build script
 - `fix`: bug fix for the user, not a fix to a build script
