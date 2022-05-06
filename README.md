@@ -3,6 +3,7 @@
 * 前端
   * [常用网站](content/fe/link.md) & [收藏](content/fe/bookmark.md) 
   * [HTML](content/fe/html.md)
+    * [邮件模板](content/fe/html/mail.md)
   * 样式 
     * [CSS 工具类](content/fe/style/css-util.md)
     * CSS 拓展语言

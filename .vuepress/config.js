@@ -21,7 +21,16 @@ module.exports = {
                     },
                     {
                         title: 'HTML',
-                        path: '/content/fe/html/'
+                        children: [
+                            {
+                                title: 'HTML5',
+                                path: '/content/fe/html/',
+                            },
+                            {
+                                title: '邮件模板',
+                                path: '/content/fe/html/mail',
+                            }
+                        ]
                     },
                     {
                         title: '样式',
