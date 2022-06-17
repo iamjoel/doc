@@ -236,6 +236,22 @@ inputElem.focus()
 inputElem.blur()
 ```
 
+### 监听 hover
+
+```jsx
+dom.addEventListener('mouseenter', () => {
+	// 进入
+})
+dom.addEventListener('mouseleave', e => {
+	const parent = e.target;
+  if (parent.contains(e.relatedTarget)) {
+      return;
+  }
+  // 离开
+})
+```
+
+
 ### 自定义事件
 
 ```js
