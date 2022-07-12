@@ -105,6 +105,14 @@ module.exports = {
                                     {
                                         title: 'Ant Design',
                                         path: '/content/fe/libs/react/ant-design'
+                                    },
+                                    {
+                                        title: 'Ant Design',
+                                        path: '/content/fe/libs/react/ant-design'
+                                    },
+                                    {
+                                        title: 'useHotKeys',
+                                        path: '/content/fe/libs/react/use-hotkeys'
                                     }
                                 ]
                             },
