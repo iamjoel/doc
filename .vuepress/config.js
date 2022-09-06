@@ -163,6 +163,15 @@ module.exports = {
                                 path: '/content/fe/tool/package-manage'
                             }
                         ]
+                    },
+                    {
+                        title: '工程化',
+                        children: [
+                            {
+                                title: '性能',
+                                path: '/content/fe/engineer/performance/'
+                            }
+                        ]
                     }
                 ]
             },

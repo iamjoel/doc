@@ -34,6 +34,8 @@
   * 工具
     * [ESLint & TSLint](content/fe/tool/eslint.md)
     * [包管理工具](content/fe/tool/package-manage.md)
+  * 工程化
+    * [性能](content/fe/engineer/performance/README.md)
 * 后端
   * [常用网站](content/backend/link.md) & [收藏](content/backend/bookmark.md)
   * [Node.js](content/backend/nodejs.md)
