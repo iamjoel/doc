@@ -5,7 +5,7 @@
   "prefix": "j:imgPlaceholder",
   "description": "站位图",
   "body": [
-    "<img src=\"http://via.placeholder.com/200x100\" alt=\"\"/>",
+    "<img src=\"//iph.href.lu/335x200?text=文字\" alt=\"\"/>",
   ],
 }
 ```

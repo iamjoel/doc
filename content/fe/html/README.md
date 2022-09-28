@@ -40,6 +40,11 @@
 
 加 `contentEditable` 属性。编辑内容，默认是支持粘贴富文本的。只支持纯文本: `contenteditable="plaintext-only"`。
 
+## 站位图
+```html
+//iph.href.lu/335x200?text=文字
+```
+
 ## 更多
 
 - [HTML Snippets](https://css-tricks.com/snippets/html/)
