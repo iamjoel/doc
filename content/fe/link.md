@@ -1,5 +1,5 @@
 # 常用网站
-[**DevDocs**](https://devdocs.io/)。[番茄钟](https://alloyteam.github.io/AlloyTimer/)。
+[**DevDocs**](https://devdocs.io/)。[番茄钟](https://alloyteam.github.io/AlloyTimer/)。[Google 翻译](https://translate.google.hk/)
 
 ## JavaScript
 
@@ -106,6 +106,9 @@
 
 - [CSS utils](https://github.com/iamjoel/css-utils)
 
+## 格式转化
+* [cloud convert](https://cloudconvert.com/mp4-to-webm) 不同文件类型的转化。比如：转化成 mov 的视频转化成 mp4 的。
+* [favicon.io](https://favicon.io/favicon-converter/) png 转化成网站的 favicon。
 
 ## 英语
 ### 听力

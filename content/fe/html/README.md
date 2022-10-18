@@ -10,8 +10,10 @@
 
 ```html
 <a href="mailto:someone@yoursite.com">Email Us</a>
-<!-- 带主题的 -->
-<a href="mailto:someone@yoursite.com?subject=Mail from Our Site">Email Us</a>
+<!-- 邮件主题 -->
+<a href={mailto:...?subject=`${encodeURIComponent(主题)}`">Email Us</a>
+<!-- 邮件内容 -->
+<a href={mailto:?body=`${encodeURIComponent('姓名: \n诉求: \n')}`}>Email Us</a>
 ```
 
 ## 下载文件
