@@ -23,6 +23,27 @@ parseInt(3.5) // 3。去小数部分。
 parseInt(-3.5) // -3。去小数部分。
 ```
 
+### 文件大小转化
+```js
+export const formatFileSize = fileSize => {
+  if (!fileSize) {
+    return 0
+  }
+  const units = ['B', 'KB', 'MB', 'GB']
+  let res = parseFloat(fileSize)
+  let unitIndex = 0
+  while (res > 1024 && unitIndex < units.length - 1) {
+    res = res / 1024
+    unitIndex++
+  }
+  const fractionalPartLen = (res + '').split('.')[1] ? (res + '').split('.')[1].length : 0
+  if (fractionalPartLen > 2) {
+    res = res.toFixed(2)
+  }
+  return `${res}${units[unitIndex]}`
+}
+```
+
 ## 字符串
 
 ### substr
