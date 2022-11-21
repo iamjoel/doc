@@ -12,6 +12,9 @@
 
 `sudo vim /etc/hosts`
 
+## 录屏
+快捷键: `Command + Shift + 5`
+
 **— 完 —**
 
 整理By [Joel](https://github.com/iamjoel)。微信号搜索: joel007。
