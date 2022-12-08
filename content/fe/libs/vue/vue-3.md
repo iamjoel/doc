@@ -1,4 +1,11 @@
 # Vue 3
+## 快速创建项目
+
+```bash
+npm init vue@latest
+```
+
+## Composition API
 ```jsx
 import {ref, watch, computed, reactive, toRefs} from 'vue'
 
@@ -25,10 +32,4 @@ export default function useCount(initValue = 1, onChange) {
     ...toRefs(user), // 保持属性的响应
   }
 }
-```
-
-## 创建项目
-
-```bash
-yarn create @vitejs/app 项目名 --template vue
 ```
