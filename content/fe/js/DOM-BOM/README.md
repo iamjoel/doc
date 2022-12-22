@@ -157,6 +157,39 @@ function getOffsetTop(dom) {
 }
 ```
 
+### PC 上监控用户的放大，缩小的行为(触控板 + 滚轮)
+```js
+import { useDebounceFn } from 'ahooks'
+// <div onWheel={handleZoom} />
+const { run: didZoom} = useDebounceFn((event: React.WheelEvent) => {
+  event.preventDefault()
+  // 没有固定方向
+  if(event.deltaX !== 0 && event.deltaY !== 0) {
+    return
+  }
+  /*
+  * event.ctrlKey 为 true 的情况:
+  * 1. 触控板。按下 ctrl 或 两指方向不一致。
+  * 2. 鼠标。按下 ctrl。
+  */
+  if(event.ctrlKey) { // 排除横向滚动事件。
+    if (event.deltaY < 0) {
+      // 放大
+      if(zoomIndex < zoomConfig.length - 1) {
+        script.setZoomIndex(zoomIndex + 1)
+      }
+    } else if (event.deltaY > 0) {
+      // 缩小
+      if(zoomIndex > 0) {
+        script.setZoomIndex(zoomIndex - 1)
+      }
+    }
+  }
+}, {
+  wait: 10,
+})
+```
+
 ### 异步获取下载链接，下载文件
 
 ```js
