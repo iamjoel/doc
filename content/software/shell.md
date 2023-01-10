@@ -1,4 +1,16 @@
-# Shell
+# 命令行
+## zsh 的配置
+
+```bash
+~/.zshrc
+```
+
+重新编译配置:
+
+```bash
+source ~/.zshrc
+```
+
 ## 运行 Shell 文件
 ```bash
 sh 文件名
