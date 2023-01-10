@@ -4,8 +4,10 @@
   * [常用网站](content/fe/link.md) & [收藏](content/fe/bookmark.md) 
   * [HTML](content/fe/html.md)
     * [邮件模板](content/fe/html/mail.md)
-  * 样式 
-    * [CSS 工具类](content/fe/style/css-util.md)
+  * 样式
+    * Unity First
+      * tailwind.css
+      * [CSS 工具类](content/fe/style/css-util.md)
     * CSS 拓展语言
       * [Sass](content/fe/style/sass.md)
     * 防止样式污染
@@ -42,12 +44,25 @@
 * 数据库
   * [MySQL & SQL](content/database/mysql.md)
 * [软件 & 工具](content/software/README.md)
-  * [Markdown 及扩展](content/software/markdown/README.md)
-  * [Git](content/software/git.md)
-  * [Mac](content/software/mac.md)
-  * [whistle - 跨平台 Web 调试代理工具](content/software/whistle.md)
-  * [HHKB 配置 Karabiner-Elements 改键位](content/software/hhkb.md)
-  * [鼠须管配置（default.custom.yaml）](content/software/rime.md)
+  * 开发者工具
+    * [命令行](content/software/develop/shell.md)
+      * oh my zsh
+      * just
+    * [Markdown 及扩展](content/software/develop/markdown/README.md)
+    * [VSCode](content/software/develop/vscode/README.md)
+    * [Git](content/software/develop/git.md)
+  * 启动器
+    * Script Kit
+  * 系统
+    * [Mac](content/software/system/mac.md)
+  * 基础工具
+    * [Chrome](content/software/base/chrome/README.md)
+    * [鼠须管配置（default.custom.yaml）](content/software/base/rime.md)
+    * [HHKB 配置 Karabiner-Elements 改键位](content/software/base/hhkb.md)
+  * 网络
+    * [SwitchHosts](content/software/network/switchhosts.md)
+    * [whistle - 跨平台 Web 调试代理工具](content/software/network/whistle.md)
+    * [Nginx](content/software/network/nginx.md)
 * VSCode 片段
   * [HTML](content/fe/html/0-snippet.md)
   * [CSS](content/fe/style/0-snippet.md)
@@ -55,7 +70,7 @@
   * [TypeScript](content/fe/js/ts/0-snippet.md)
   * [React](content/fe/libs/react/0-snippet.md)
   * [Taro](content/fe/libs/taro/0-snippet.md)
-  * [Markdown](content/software/markdown/0-snippet.md)
+  * [Markdown](content/software/develop/markdown/0-snippet.md)
 * 写作
   * [工具](content/write/tools.md)
   * [配色](content/write/palette/README.md)
