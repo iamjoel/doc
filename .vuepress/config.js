@@ -204,38 +204,74 @@ module.exports = {
                 path: '/content/software/',
                 children: [
                     {
-                        title: 'Markdown 及扩展',
-                        path: '/content/software/markdown/'
-                    },
-                    {
-                        title: 'Git',
-                        path: '/content/software/git'
-                    },
-                    {
-                        title: 'Chrome',
-                        path: '/content/software/chrome/'
-                    },
-                    {
-                        title: 'Mac',
-                        path: '/content/software/mac'
-                    },
-                    {
-                        title: 'Shell',
-                        path: '/content/software/shell'
-                    },
-                    {
-                        title: 'whistle - 跨平台 Web 调试代理工具',
-                        path: '/content/software/whistle'
-                    },
-                    {
-                        title: 'HHKB 配置 Karabiner-Elements 改键位',
-                        path: '/content/software/hhkb'
-                    },
-                    {
-                        title: '鼠须管配置（default.custom.yaml)',
-                        path: '/content/software/rime'
+                      title: '开发者工具',
+                      children: [
+                        {
+                          title: '命令行',
+                          path: '/content/software/develop/shell'
+                        },
+                        {
+                          title: 'Markdown 及扩展',
+                          path: '/content/software/develop/markdown/'
+                        },
+                        {
+                          title: 'Git',
+                          path: '/content/software/develop/git'
+                        },
+                        {
+                          title: 'VSCode',
+                          path: '/content/software/develop/vscode'
+                        },
+                        {
+                          title: 'Docker & k8s',
+                          path: '/content/software/develop/docker-k8s'
+                        },
+                      ]
                     },
                     
+                    {
+                      title: '系统',
+                      children: [
+                        {
+                          title: 'Mac',
+                          path: '/content/software/system/mac'
+                        },
+                      ]
+                    },
+                    {
+                      title: '基础工具',
+                      children: [
+                        {
+                          title: 'Chrome',
+                          path: '/content/software/base/chrome/'
+                        },
+                        {
+                          title: 'HHKB 配置 Karabiner-Elements 改键位',
+                          path: '/content/software/base/hhkb'
+                        },
+                        {
+                          title: '鼠须管配置（default.custom.yaml)',
+                          path: '/content/software/base/rime'
+                        },
+                      ]
+                    },
+                    {
+                      title: '网络',
+                      children: [
+                        {
+                          title: 'SwitchHosts',
+                          path: '/content/software/network/switchhosts'
+                        },
+                        {
+                          title: 'whistle - 跨平台 Web 调试代理工具',
+                          path: '/content/software/network/whistle'
+                        },
+                        {
+                          title: 'Nginx',
+                          path: '/content/software/network/nginx'
+                        },
+                      ]
+                    },
                 ]
             },
             {
@@ -267,7 +303,7 @@ module.exports = {
                     },
                     {
                         title: 'Markdown',
-                        path: '/content/software/markdown/0-snippet'
+                        path: '/content/software/develop/markdown/0-snippet'
                     },
                 ]
             },
